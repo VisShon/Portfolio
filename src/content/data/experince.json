@@ -17,7 +17,7 @@
 			"Orchestrated the adoption of a class-based testing framework, leading to a 30% improvement in software quality.",
 			"Bashed the SL3D editor module for understanding test needs, identified 5 severe bugs in the new virtual world editor, which were raised for the upcoming release, and helped write new tests for the VR Editor."
 		],
-		"image":"./images/experience/1.png"
+		"image":"https://images.vishnushon.com/experience/1.png"
 	},
 	{
 		"title": "StayBook | Product Lead",
@@ -37,7 +37,7 @@
 			"Architected CDN caching for static and Load balancing for traffic optimization using Google cloud load balancing, reducing LCP load times from 5s to <2.5s.",
 			"Critically increased product sales by targeting google insights and optimizing SEO, resulting in 20,000 daily active users."
 		],
-		"image":"./images/experience/2.png"
+		"image":"https://images.vishnushon.com/experience/2.png"
 
 	},
 	{
@@ -54,7 +54,7 @@
 			"Led the integration of the backend with GeoServer, using PostGIS and OSM API, incorporating satellite data with a composable React UI.",
 			"Pioneered authentication using the government SSO servers setting the solid groundwork for future deployment."
 		],
-		"image":"./images/experience/3.png"
+		"image":"https://images.vishnushon.com/experience/3.png"
 	},
 	{
 		"title": "Respct | Founding Member",
@@ -75,7 +75,7 @@
 			"Proposed an integrative approach for embedding Respct inside the USM Metaverse, managing a multidisciplinary team of developers and designers.",
 			"Orchestrated the conceptualization and implementation of product features, utilizing NextJS and EthersJs to craft an immersive user interface and experience, leading to a 50% surge in user adoption."
 		],
-		"image":"./images/experience/4.png"
+		"image":"https://images.vishnushon.com/experience/4.png"
 	},
 	{
 		"title": "HedgeCo | Frontend Developer",
@@ -90,7 +90,7 @@
 			"Led the development of HedgeCo's PWA using React JS and Chart JS, concurrently driving the UI/UX design team for an intuitive and visually engaging user interface.",
 			"Worked closely with the CTO to refine design ideations, resulting in a product that aligns seamlessly with the company's vision."
 		],
-		"image":"./images/experience/5.png"
+		"image":"https://images.vishnushon.com/experience/5.png"
 	},
 	{
 		"title": "Settlrs | UI/UX Designer",
@@ -105,7 +105,7 @@
 			"Designed the user flow and UI for the platform from scratch, working closely with the lead developer.",
 			"Worked on revamping the landing page with a better information structure and new illustrations and interactions."
 		],
-		"image":"./images/experience/6.png"
+		"image":"https://images.vishnushon.com/experience/6.png"
 	},
 	{
 		"title": "Memboro | UI/UX Designer",
@@ -120,6 +120,6 @@
 			"Worked as a UI/UX Designer, crafting a revamped UI for the platform working closely with the founders and design lead.",
 			"A social media platform, Memboro helps creators strategize their and monetize their community."
 		],
-		"image":"./images/experience/7.webp"
+		"image":"https://images.vishnushon.com/experience/7.webp"
 	}
   ]

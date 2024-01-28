@@ -13,12 +13,12 @@
 			}
 		],
 		"images":[
-			"./images/awards/ethIndia/1.webp",
-			"./images/awards/ethIndia/2.webp",
-			"./images/awards/ethIndia/3.webp",
-			"./images/awards/ethIndia/4.webp",
-			"./images/awards/ethIndia/5.webp",
-			"./images/awards/ethIndia/6.webp"
+			"https://images.vishnushon.com/awards/ethIndia/1.webp",
+			"https://images.vishnushon.com/awards/ethIndia/2.webp",
+			"https://images.vishnushon.com/awards/ethIndia/3.webp",
+			"https://images.vishnushon.com/awards/ethIndia/4.webp",
+			"https://images.vishnushon.com/awards/ethIndia/5.webp",
+			"https://images.vishnushon.com/awards/ethIndia/6.webp"
 		]
 	},
 	{
@@ -35,12 +35,12 @@
 			}
 		],
 		"images":[
-			"./images/awards/polygonBuidlit/1.webp",
-			"./images/awards/polygonBuidlit/2.webp",
-			"./images/awards/polygonBuidlit/3.webp",
-			"./images/awards/polygonBuidlit/4.webp",
-			"./images/awards/polygonBuidlit/5.webp",
-			"./images/awards/polygonBuidlit/6.webp"
+			"https://images.vishnushon.com/awards/polygonBuidlit/1.webp",
+			"https://images.vishnushon.com/awards/polygonBuidlit/2.webp",
+			"https://images.vishnushon.com/awards/polygonBuidlit/3.webp",
+			"https://images.vishnushon.com/awards/polygonBuidlit/4.webp",
+			"https://images.vishnushon.com/awards/polygonBuidlit/5.webp",
+			"https://images.vishnushon.com/awards/polygonBuidlit/6.webp"
 		]
 	}
 ]

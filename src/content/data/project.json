@@ -27,15 +27,15 @@
 			"RevereLabs presents an Escrow-Based Payment Management Platform designed to address the challenges faced by clients and freelancers in the gig economy. Focused on building trust through efficient payments, the platform fosters a \"trusted economy\" using web3 technologies. Leveraging an intricate smart contract, NFTEscrow.sol, deployed for every gig, ensuring secure and transparent transactions. The platform's frontend, built with NEXT.js and integrated with blockchain using Ethers.js, facilitates user authentication through Moralis and AWS Cognito and stores user and gig data via IPFS file storage API. Noteworthy is RevereLabs' participation and success in the Polygon BuidlIt Hackathon 2022, where it secured a $2000 win. The platform's evolution is marked by a 3-month mentorship with StatesDAO for getting a better understanding of advancing web3 development and market study."
 		],
 		"images":[
-			"./images/projects/revereLabs/4.webp",
-			"./images/projects/revereLabs/1.webp",
-			"./images/projects/revereLabs/2.webp",
-			"./images/projects/revereLabs/3.webp",
-			"./images/projects/revereLabs/5.webp",
-			"./images/projects/revereLabs/6.webp",
-			"./images/projects/revereLabs/7.webp",
-			"./images/projects/revereLabs/8.webp",
-			"./images/projects/revereLabs/9.webp"
+			"https://images.vishnushon.com/projects/revereLabs/4.webp",
+			"https://images.vishnushon.com/projects/revereLabs/1.webp",
+			"https://images.vishnushon.com/projects/revereLabs/2.webp",
+			"https://images.vishnushon.com/projects/revereLabs/3.webp",
+			"https://images.vishnushon.com/projects/revereLabs/5.webp",
+			"https://images.vishnushon.com/projects/revereLabs/6.webp",
+			"https://images.vishnushon.com/projects/revereLabs/7.webp",
+			"https://images.vishnushon.com/projects/revereLabs/8.webp",
+			"https://images.vishnushon.com/projects/revereLabs/9.webp"
 		]
 	},
 	{
@@ -67,17 +67,17 @@
 			"Fethr, the Decentralized Journalism Platform, was created for secure and transparent journalism in the face of increasing censorship. The application utilizes blockchain technology to provide journalists with a secure space for sharing stories without fear of censorship. Fethr introduces a user verification system, allowing journalists to register and get verified for publishing articles seamlessly. With features like AI-based content review, faucet system via Wagmi, subscription pipeline via Superfluid, and secure identities with Ceramic DID, Fethr ensures credibility and transparency. The architecture involves WalletConnect SDK for user interaction with the blockchain, Next.js and Ethers.js for the frontend, Ceramic Network ComposeDB for data retrieval, and NFT Storage SDK for blog NFT minting. Fethr's was recognized as the runner-up at the IGDTUW Devacation Hackathon."
 		],
 		"images":[
-			"./images/projects/0xfethr/4.webp",
-			"./images/projects/0xfethr/1.webp",
-			"./images/projects/0xfethr/2.webp",
-			"./images/projects/0xfethr/3.webp",
-			"./images/projects/0xfethr/5.webp",
-			"./images/projects/0xfethr/6.webp",
-			"./images/projects/0xfethr/7.webp",
-			"./images/projects/0xfethr/8.webp",
-			"./images/projects/0xfethr/9.webp",
-			"./images/projects/0xfethr/10.webp",
-			"./images/projects/0xfethr/11.webp"
+			"https://images.vishnushon.com/projects/0xfethr/4.webp",
+			"https://images.vishnushon.com/projects/0xfethr/1.webp",
+			"https://images.vishnushon.com/projects/0xfethr/2.webp",
+			"https://images.vishnushon.com/projects/0xfethr/3.webp",
+			"https://images.vishnushon.com/projects/0xfethr/5.webp",
+			"https://images.vishnushon.com/projects/0xfethr/6.webp",
+			"https://images.vishnushon.com/projects/0xfethr/7.webp",
+			"https://images.vishnushon.com/projects/0xfethr/8.webp",
+			"https://images.vishnushon.com/projects/0xfethr/9.webp",
+			"https://images.vishnushon.com/projects/0xfethr/10.webp",
+			"https://images.vishnushon.com/projects/0xfethr/11.webp"
 		]
 	},
 	{
@@ -104,11 +104,11 @@
 			"AlkyneFi, the Social Trading Platform, merges financial elements with the creator economy under the decentralized umbrella. Leveraging technologies such as Lens protocol, ENS, IPFS, Push, Covalent API, and FileCoin, AlkyneFi introduces a unique model allowing selective membership access to assets traded and recommended by 'Managers' (creators). Hosted on Polygon, the platform ensures live updates and notifications using Push, with Manager asset data and records seamlessly integrated through the Covalent API. AlkyneFi not only secured a distinguished place in the world's largest Ethereum hackathon, ETHIndia 2022, but also earned multiple bounties from prominent entities like Covalent, FileCoin, and Push Protocol, amassing a collective accolade of $1700+."
 		],
 		"images":[
-			"./images/projects/alkyneFi/5.webp",
-			"./images/projects/alkyneFi/1.webp",
-			"./images/projects/alkyneFi/2.webp",
-			"./images/projects/alkyneFi/3.webp",
-			"./images/projects/alkyneFi/4.webp"
+			"https://images.vishnushon.com/projects/alkyneFi/5.webp",
+			"https://images.vishnushon.com/projects/alkyneFi/1.webp",
+			"https://images.vishnushon.com/projects/alkyneFi/2.webp",
+			"https://images.vishnushon.com/projects/alkyneFi/3.webp",
+			"https://images.vishnushon.com/projects/alkyneFi/4.webp"
 		]
 	},
 	{
@@ -140,18 +140,18 @@
 			"The Interview Scheduling Platform enhances the interview process by employing a Microservices Architecture. We Collaborated closely with a Mathworks representative as the sponsor of this project, We proceeded with a test driven approach utilizing jest and cypress for backend servers and frontend application respectively, The technology stack includes Next.js for the presentation layer, Express for scheduling server, Django for resume analysis OCR model, and a telegram chatbot using (PyBot) for conversational interfaces. Neo4j's graph database efficiently handles interconnected interview data. Google Cloud integrations (OAuth, Calendar, Mail, Sheets) empower seamless HR capabilities. Apollo Client ensures efficient GraphQL data management, and Apollo Server bridges the front end and Neo4j. The platform optimizes the interview lifecycle, making it robust, efficient, and user-friendly. We also established a robust CI/CD pipeline with Google Cloud Run, Cloud Build Triggers, and Cypress tests to ensure rigorous testing and scalable deployment."
 		],
 		"images":[
-			"./images/projects/interviewlink/2.webp",
-			"./images/projects/interviewlink/1.webp",
-			"./images/projects/interviewlink/3.webp",
-			"./images/projects/interviewlink/4.webp",
-			"./images/projects/interviewlink/5.webp",
-			"./images/projects/interviewlink/6.webp",
-			"./images/projects/interviewlink/7.webp",
-			"./images/projects/interviewlink/8.webp",
-			"./images/projects/interviewlink/9.webp",
-			"./images/projects/interviewlink/10.webp",
-			"./images/projects/interviewlink/11.webp",
-			"./images/projects/interviewlink/12.webp"
+			"https://images.vishnushon.com/projects/interviewlink/2.webp",
+			"https://images.vishnushon.com/projects/interviewlink/1.webp",
+			"https://images.vishnushon.com/projects/interviewlink/3.webp",
+			"https://images.vishnushon.com/projects/interviewlink/4.webp",
+			"https://images.vishnushon.com/projects/interviewlink/5.webp",
+			"https://images.vishnushon.com/projects/interviewlink/6.webp",
+			"https://images.vishnushon.com/projects/interviewlink/7.webp",
+			"https://images.vishnushon.com/projects/interviewlink/8.webp",
+			"https://images.vishnushon.com/projects/interviewlink/9.webp",
+			"https://images.vishnushon.com/projects/interviewlink/10.webp",
+			"https://images.vishnushon.com/projects/interviewlink/11.webp",
+			"https://images.vishnushon.com/projects/interviewlink/12.webp"
 		]
 	},
 	{
@@ -187,19 +187,19 @@
 			"Vantage, the Event Management Application, presents a creative approach to enhance event organization. Designed with user-friendly principles in mind, the application leverages a GRAND stack to deliver seamless interaction and networking for event attendees. The choice of Neo4j as the database ensures efficient data management and retrieval, optimizing the platform for scalability and performance. Apollo Server serves as a robust backend is the best way to build a production-ready, self-documenting GraphQL API. Next.js contributes to the creation of a responsive frontend. Livepeer integration enables the live streaming of physical events, adding a layer of interactivity for remote participants. Recognized as the 'Best in Usable Security' by an esteemed IIITD professor."
 		],
 		"images":[
-			"./images/projects/vantage/1.webp",
-			"./images/projects/vantage/2.webp",
-			"./images/projects/vantage/3.webp",
-			"./images/projects/vantage/4.webp",
-			"./images/projects/vantage/5.webp",
-			"./images/projects/vantage/6.webp",
-			"./images/projects/vantage/7.webp",
-			"./images/projects/vantage/8.webp",
-			"./images/projects/vantage/9.webp",
-			"./images/projects/vantage/10.webp",
-			"./images/projects/vantage/11.webp",
-			"./images/projects/vantage/12.webp",
-			"./images/projects/vantage/13.webp"
+			"https://images.vishnushon.com/projects/vantage/1.webp",
+			"https://images.vishnushon.com/projects/vantage/2.webp",
+			"https://images.vishnushon.com/projects/vantage/3.webp",
+			"https://images.vishnushon.com/projects/vantage/4.webp",
+			"https://images.vishnushon.com/projects/vantage/5.webp",
+			"https://images.vishnushon.com/projects/vantage/6.webp",
+			"https://images.vishnushon.com/projects/vantage/7.webp",
+			"https://images.vishnushon.com/projects/vantage/8.webp",
+			"https://images.vishnushon.com/projects/vantage/9.webp",
+			"https://images.vishnushon.com/projects/vantage/10.webp",
+			"https://images.vishnushon.com/projects/vantage/11.webp",
+			"https://images.vishnushon.com/projects/vantage/12.webp",
+			"https://images.vishnushon.com/projects/vantage/13.webp"
 		]
 	},
 	{
@@ -222,15 +222,15 @@
 			"Bespoke AI project addressed prevalent challenges faced by businesses in data organization, AI implementation, and appreciation of big data value. Identifying issues such as poor data quality, restricted AI access, and the complexities of existing models, we innovatively proposed a solution. This platform democratizes AI by introducing customizable Language Models (LLMs) as a service (LaaS), aiming to bridge gaps in the AI landscape. Our solution features enhanced data integration with Google Sheets, an intuitively designed dashboard inspired by Notion, tailored and customizable models, dual access channels for flexibility, versatile visual representations, and scalable infrastructure. A SWOT analysis identified strengths in customization and usability, while opportunities lie in market expansion and addressing the AI infrastructure gap. The revenue model includes subscription-based plans, customized enterprise solutions, usage-based pricing, consulting services, premium support, and API access with integration fees."
 		],
 		"images":[
-			"./images/projects/bespokeAI/7.webp",
-			"./images/projects/bespokeAI/1.webp",
-			"./images/projects/bespokeAI/2.webp",
-			"./images/projects/bespokeAI/3.webp",
-			"./images/projects/bespokeAI/4.webp",
-			"./images/projects/bespokeAI/5.webp",
-			"./images/projects/bespokeAI/6.webp",
-			"./images/projects/bespokeAI/8.webp",
-			"./images/projects/bespokeAI/9.webp"
+			"https://images.vishnushon.com/projects/bespokeAI/7.webp",
+			"https://images.vishnushon.com/projects/bespokeAI/1.webp",
+			"https://images.vishnushon.com/projects/bespokeAI/2.webp",
+			"https://images.vishnushon.com/projects/bespokeAI/3.webp",
+			"https://images.vishnushon.com/projects/bespokeAI/4.webp",
+			"https://images.vishnushon.com/projects/bespokeAI/5.webp",
+			"https://images.vishnushon.com/projects/bespokeAI/6.webp",
+			"https://images.vishnushon.com/projects/bespokeAI/8.webp",
+			"https://images.vishnushon.com/projects/bespokeAI/9.webp"
 		]
 	},
 	{
@@ -258,9 +258,9 @@
 			"ALT (Active Learning and Teaching App) is an educational platform prioritizing active engagement and collaborative learning. Developed by Me and Rohan Dhar under the guidance of Prof Pankaj Jalote, the platform employed a Firebase Realtime Database and React Native for its infrastructure. We introduced practical features such as Teaching Assistant (TA) integration, fostering engaged problem-solving discussions. The technology stack was also overhauled, transitioning to functional components from an existing class-based structure, and adopting Firestore as the backend database for enhanced performance."
 		],
 		"images":[
-			"./images/projects/alt/1.webp",
-			"./images/projects/alt/2.webp",
-			"./images/projects/alt/3.webp"
+			"https://images.vishnushon.com/projects/alt/1.webp",
+			"https://images.vishnushon.com/projects/alt/2.webp",
+			"https://images.vishnushon.com/projects/alt/3.webp"
 		]
 	},
 	{
@@ -287,12 +287,12 @@
 			"IIITDChat is a messaging platform tailored for IIIT Delhi students, In our application students will be able to add tasks to the task list and do brainstorming on the jamboard part along with texting features. The frontend is developed using React.js, On the database side, the app uses MySQL. We used the concepts like indexing, triggers and mysql inbuilt function for query optimization. Node.js using Express.js framework is used as the backend technology. The app prioritizes data security using JWT authentication and authorization, The platform was hosted using Heroku(Until the free tier expired)"
 		],
 		"images":[
-			"./images/projects/iiitdChat/2.webp",
-			"./images/projects/iiitdChat/1.webp",
-			"./images/projects/iiitdChat/3.webp",
-			"./images/projects/iiitdChat/4.webp",
-			"./images/projects/iiitdChat/5.webp",
-			"./images/projects/iiitdChat/6.webp"
+			"https://images.vishnushon.com/projects/iiitdChat/2.webp",
+			"https://images.vishnushon.com/projects/iiitdChat/1.webp",
+			"https://images.vishnushon.com/projects/iiitdChat/3.webp",
+			"https://images.vishnushon.com/projects/iiitdChat/4.webp",
+			"https://images.vishnushon.com/projects/iiitdChat/5.webp",
+			"https://images.vishnushon.com/projects/iiitdChat/6.webp"
 		]
 	},
 	{
@@ -328,13 +328,13 @@
 			"The collaborative community-based platform developed by my Team Distrack. In-depth User Research, one-to-one interviews, survey forms, and focus groups involving teachers and JEE passouts. Insights revealed the need for mentorship, time management, and innovative testing methods. The findings revealed the demand for mentorship, the need for effective time management, and the prevalence of cheating concerns in online testing platforms.Identified potential competitors like Vedantu and Doubtnut lack gamification elements, providing an opportunity to distinguish the platform through dynamic leaderboards, mentorship programs, and user incentives. Scenario-Based Approach: Through scenarios, the platform envisions addressing specific challenges faced by students such as anxiety management during exams, effective doubt resolution, and tailored topic-wise preparation."
 		],
 		"images":[
-			"./images/projects/potentio/5.webp",
-			"./images/projects/potentio/1.webp",
-			"./images/projects/potentio/2.webp",
-			"./images/projects/potentio/3.webp",
-			"./images/projects/potentio/4.webp",
-			"./images/projects/potentio/6.webp",
-			"./images/projects/potentio/7.webp"
+			"https://images.vishnushon.com/projects/potentio/5.webp",
+			"https://images.vishnushon.com/projects/potentio/1.webp",
+			"https://images.vishnushon.com/projects/potentio/2.webp",
+			"https://images.vishnushon.com/projects/potentio/3.webp",
+			"https://images.vishnushon.com/projects/potentio/4.webp",
+			"https://images.vishnushon.com/projects/potentio/6.webp",
+			"https://images.vishnushon.com/projects/potentio/7.webp"
 		]
 	},
 	{
@@ -353,19 +353,19 @@
 			"Unnati, our innovative mental health support platform, offers a host of unique features designed to create a safe and anonymous space for individuals to share their feelings and find solace.Drawing inspiration from the legendary tale of King Vikramaditya and Betaal, we conceptualized Vetal, a dynamic chatbot functioning as both a supportive companion and an insightful moderator. Vetal is an AI-driven companion that functions as both a conversational partner and a helpful moderator. Through intuitive pseudo-questions, users engage in micro-groups, facilitating focused discussions on specific topics like peer pressure or academic stress. The beauty of the platform lies in its simplicity, fostering genuine human connections. With Vetal's dynamic role as a relatable friend, storyteller, or moderator. During the Unnati design project, our team navigated the complexities of mental health support, employing design processes, conducting user surveys and empathy mapping to understand the nuanced needs of our target audience, primarily those under 30. The design process unfolded incorporating elements of introspection, clarity, and symbiosis."
 		],
 		"images":[
-			"./images/projects/unnati/9.webp",
-			"./images/projects/unnati/1.webp",
-			"./images/projects/unnati/2.webp",
-			"./images/projects/unnati/3.webp",
-			"./images/projects/unnati/4.webp",
-			"./images/projects/unnati/5.webp",
-			"./images/projects/unnati/6.webp",
-			"./images/projects/unnati/7.webp",
-			"./images/projects/unnati/8.webp",
-			"./images/projects/unnati/10.webp",
-			"./images/projects/unnati/11.webp",
-			"./images/projects/unnati/12.webp",
-			"./images/projects/unnati/13.webp"
+			"https://images.vishnushon.com/projects/unnati/9.webp",
+			"https://images.vishnushon.com/projects/unnati/1.webp",
+			"https://images.vishnushon.com/projects/unnati/2.webp",
+			"https://images.vishnushon.com/projects/unnati/3.webp",
+			"https://images.vishnushon.com/projects/unnati/4.webp",
+			"https://images.vishnushon.com/projects/unnati/5.webp",
+			"https://images.vishnushon.com/projects/unnati/6.webp",
+			"https://images.vishnushon.com/projects/unnati/7.webp",
+			"https://images.vishnushon.com/projects/unnati/8.webp",
+			"https://images.vishnushon.com/projects/unnati/10.webp",
+			"https://images.vishnushon.com/projects/unnati/11.webp",
+			"https://images.vishnushon.com/projects/unnati/12.webp",
+			"https://images.vishnushon.com/projects/unnati/13.webp"
 		]
 	},
 	{
@@ -389,19 +389,19 @@
 			"In the project 'éclat,' our goal was to address the pressing issue of the lack of support for parents of children with learning disabilities. Recognizing the challenges faced by these parents and the social stigma associated with learning disabilities, we conceptualized éclat as a holistic platform. Our comprehensive approach involved market analysis, brand development, and the design of an app aimed at creating a supportive community. Through features like playdates and parent-only meetings, éclat tries to foster genuine connections among parents and children dealing with learning disabilities. The visual identity, characterized by a logo with a Traffic Marker font and a Minion Variable Concept tagline, uses a purposeful color palette of purple, blue, and pink. The communication strategy includes social media, awareness workshops, and traditional advertising. Our app prototype, designed using Adobe XD, incorporates a sans-serif rounded Quicksand font and a user-friendly interface."
 		],
 		"images":[
-			"./images/projects/eclat/1.webp",
-			"./images/projects/eclat/2.webp",
-			"./images/projects/eclat/3.webp",
-			"./images/projects/eclat/4.webp",
-			"./images/projects/eclat/5.webp",
-			"./images/projects/eclat/6.webp",
-			"./images/projects/eclat/7.webp",
-			"./images/projects/eclat/8.webp",
-			"./images/projects/eclat/9.webp",
-			"./images/projects/eclat/10.webp",
-			"./images/projects/eclat/11.webp",
-			"./images/projects/eclat/12.webp",
-			"./images/projects/eclat/13.webp"
+			"https://images.vishnushon.com/projects/eclat/1.webp",
+			"https://images.vishnushon.com/projects/eclat/2.webp",
+			"https://images.vishnushon.com/projects/eclat/3.webp",
+			"https://images.vishnushon.com/projects/eclat/4.webp",
+			"https://images.vishnushon.com/projects/eclat/5.webp",
+			"https://images.vishnushon.com/projects/eclat/6.webp",
+			"https://images.vishnushon.com/projects/eclat/7.webp",
+			"https://images.vishnushon.com/projects/eclat/8.webp",
+			"https://images.vishnushon.com/projects/eclat/9.webp",
+			"https://images.vishnushon.com/projects/eclat/10.webp",
+			"https://images.vishnushon.com/projects/eclat/11.webp",
+			"https://images.vishnushon.com/projects/eclat/12.webp",
+			"https://images.vishnushon.com/projects/eclat/13.webp"
 		]
 	},
 	{
@@ -418,12 +418,12 @@
 			"Created the design system for a quizzing platform, as a part of a 3-day UI design challenge in our college."
 		],
 		"images":[
-			"./images/projects/quizzler/6.webp",
-			"./images/projects/quizzler/1.webp",
-			"./images/projects/quizzler/2.webp",
-			"./images/projects/quizzler/3.webp",
-			"./images/projects/quizzler/4.webp",
-			"./images/projects/quizzler/5.webp"
+			"https://images.vishnushon.com/projects/quizzler/6.webp",
+			"https://images.vishnushon.com/projects/quizzler/1.webp",
+			"https://images.vishnushon.com/projects/quizzler/2.webp",
+			"https://images.vishnushon.com/projects/quizzler/3.webp",
+			"https://images.vishnushon.com/projects/quizzler/4.webp",
+			"https://images.vishnushon.com/projects/quizzler/5.webp"
 		]
 	},
 	{
@@ -450,14 +450,14 @@
 			"Utilized technologies like React.js, Node.js and Figma for creating dynamic and responsive UI"
 		],
 		"images":[
-			"./images/projects/hcd/1.webp",
-			"./images/projects/hcd/2.webp",
-			"./images/projects/hcd/3.webp",
-			"./images/projects/hcd/4.webp",
-			"./images/projects/hcd/5.webp",
-			"./images/projects/hcd/6.webp",
-			"./images/projects/hcd/7.webp",
-			"./images/projects/hcd/8.webp"
+			"https://images.vishnushon.com/projects/hcd/1.webp",
+			"https://images.vishnushon.com/projects/hcd/2.webp",
+			"https://images.vishnushon.com/projects/hcd/3.webp",
+			"https://images.vishnushon.com/projects/hcd/4.webp",
+			"https://images.vishnushon.com/projects/hcd/5.webp",
+			"https://images.vishnushon.com/projects/hcd/6.webp",
+			"https://images.vishnushon.com/projects/hcd/7.webp",
+			"https://images.vishnushon.com/projects/hcd/8.webp"
 		]
 	},
 	{
@@ -475,12 +475,12 @@
 			"The project involved crafting a user-flow and producing a comprehensive Hi-Fi prototype using Figma."
 		],
 		"images":[
-			"./images/projects/businesscardNFT/1.webp",
-			"./images/projects/businesscardNFT/2.webp",
-			"./images/projects/businesscardNFT/3.webp",
-			"./images/projects/businesscardNFT/4.webp",
-			"./images/projects/businesscardNFT/5.webp",
-			"./images/projects/businesscardNFT/6.webp"
+			"https://images.vishnushon.com/projects/businesscardNFT/1.webp",
+			"https://images.vishnushon.com/projects/businesscardNFT/2.webp",
+			"https://images.vishnushon.com/projects/businesscardNFT/3.webp",
+			"https://images.vishnushon.com/projects/businesscardNFT/4.webp",
+			"https://images.vishnushon.com/projects/businesscardNFT/5.webp",
+			"https://images.vishnushon.com/projects/businesscardNFT/6.webp"
 		]
 	}
 ]

@@ -16,7 +16,6 @@ function Footer() {
 				VELOCITY_DISSIPATION: 0.2,
 				PRESSURE: 0.005,
 				PRESSURE_ITERATIONS: 1,
-				COLORFUL: false,
 				CURL: 2,
 				SPLAT_RADIUS: 1,
 				SPLAT_FORCE: 500,
