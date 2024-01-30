@@ -52,10 +52,10 @@ function Index() {
 
 
 	return (
-		<div className="w-[70%] small:w-full h-[95vh] relative flex flex-col justify-start items-center " ref={scope}>
+		<div className="w-[70%] small:w-full h-[105vh] relative flex flex-col justify-start items-center " ref={scope}>
 			<p className="text-chalk font-mada font-[200] opacity-40 absolute text-md top-2 left-2 z-20">Pinch The Buubble for Music</p>
 			<img 
-				className="w-full h-[100vh] absolute top-0 z-10 object-cover bg-['linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%)']" 
+				className="w-full h-[105vh] absolute top-0 z-10 object-cover bg-['linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%)']" 
 				src="./others/noise.svg"
 				alt="noise"
 			/>

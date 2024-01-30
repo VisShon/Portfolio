@@ -50,7 +50,7 @@ function Experiences() {
 
 	return (
 		<>
-			<div  className={`p-12 small:p-4 w-full font-mada bg-ivory text-charcoal select-none relative mb-20 small:mb-0 ${device==="SMALL"?variants[1]:variants[0]}` }>
+			<div  className={`p-12  small:p-4 w-full font-mada bg-ivory text-charcoal select-none relative mb-20 small:mb-0 ${device==="SMALL"?variants[1]:variants[0]}` }>
 
 				<div className="absolute flex flex-col items-center justify-start w-[50%] small:w-[40%] gap-20 z-20 ">
 					{experience.slice(0,4).map((experience,index)=>

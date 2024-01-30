@@ -16,6 +16,10 @@
     filter: sepia(80%) hue-rotate(210deg) saturate(600%);
 }
 
+.stickyScroll{
+  overflow-anchor: none; 
+}
+
 body {
   width: 100vw;
   overflow-x:clip;

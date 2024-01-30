@@ -30,6 +30,7 @@ function Wabbit() {
 			},
 			{repeat:0, ease: "easeInOut", duration:1}
 		)
+		audio.current.src="./music.mp3"
 		await audio.current.play()			
 		return
 	}
@@ -39,15 +40,29 @@ function Wabbit() {
 		audio.current.currentTime = 0
 		audio.current.src=""
 		await audio.current.pause()	
-		setFocus(false)
-		await animate(
-			".gum",
-			{
-				scale:1,
-				x:0
-			},
-			{repeat:0, ease: "easeInOut", duration:1}
-		)
+
+		if(focus){
+			setFocus(false)
+			await animate(
+				".gum",
+				{
+					scale:0.9,
+					x:-25
+				},
+				{repeat:0, ease: "easeInOut", duration:1}
+			)
+
+			await animate(
+				".gum",
+				{
+					scale:[0.9,1.2,0.9],
+					x:[-25,0,-25]
+				},
+				{repeat:Infinity, ease: "easeInOut", duration:20}
+			)
+		}
+
+
 		return 	
 	}
 

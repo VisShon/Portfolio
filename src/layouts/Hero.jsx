@@ -30,7 +30,7 @@ function Hero() {
 			<Wabbit/>
 
 			<motion.div 
-				className="text-grey small:hidden text-[1em] font-mada font-[400] flex justify-between w-full p-10  items-end absolute  large:bottom-[28%]"
+				className="text-grey small:hidden text-[1em] font-mada font-[400] flex justify-between w-full p-10  items-end absolute  large:bottom-[30%]"
 				style={{
 					filter:`blur(${blur}px)`
 				}}

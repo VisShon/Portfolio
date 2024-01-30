@@ -1,25 +1,5 @@
 [
 	{
-		"title": "Mathworks | EDG Intern",
-		"date": "May 2023 - July 2023",
-		"links": [
-			{
-				"name": "link",
-				"url": "https://www.linkedin.com/company/the-mathworks_2/"
-			},
-			{
-				"name": "canva",
-				"url": "https://www.canva.com/design/DAF4FIqehY4/x6-IHkxgp8GA_qiTHfGILw/view?utm=DAF4FIqehY4"
-			}
-		],
-		"descriptions": [
-			"Implemented UI Testing for Simulink VR Editor, revamping 7 test modules for the newer JS based virtual world editor, and creating helper classes for interactive test cases.",
-			"Orchestrated the adoption of a class-based testing framework, leading to a 30% improvement in software quality.",
-			"Bashed the SL3D editor module for understanding test needs, identified 5 severe bugs in the new virtual world editor, which were raised for the upcoming release, and helped write new tests for the VR Editor."
-		],
-		"image":"https://images.vishnushon.com/experience/1.png"
-	},
-	{
 		"title": "StayBook | Product Lead",
 		"date": "Aug 2022 - September 2023",
 		"links": [
@@ -39,6 +19,26 @@
 		],
 		"image":"https://images.vishnushon.com/experience/2.png"
 
+	},
+	{
+		"title": "Mathworks | EDG Intern",
+		"date": "May 2023 - July 2023",
+		"links": [
+			{
+				"name": "link",
+				"url": "https://www.linkedin.com/company/the-mathworks_2/"
+			},
+			{
+				"name": "canva",
+				"url": "https://www.canva.com/design/DAF4FIqehY4/x6-IHkxgp8GA_qiTHfGILw/view?utm=DAF4FIqehY4"
+			}
+		],
+		"descriptions": [
+			"Implemented UI Testing for Simulink VR Editor, revamping 7 test modules for the newer JS based virtual world editor, and creating helper classes for interactive test cases.",
+			"Orchestrated the adoption of a class-based testing framework, leading to a 30% improvement in software quality.",
+			"Bashed the SL3D editor module for understanding test needs, identified 5 severe bugs in the new virtual world editor, which were raised for the upcoming release, and helped write new tests for the VR Editor."
+		],
+		"image":"https://images.vishnushon.com/experience/1.png"
 	},
 	{
 		"title": "Government of India | Full Stack Developer",

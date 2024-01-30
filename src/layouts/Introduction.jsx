@@ -1,15 +1,16 @@
-import { motion } from "framer-motion"
-import { useState } from "react"
+import { motion, useScroll } from "framer-motion"
+import { useState, useRef } from "react"
 import Line from "../components/Line"
 
 
 function Introduction() {
 
+	const ref = useRef(null)
 	const [rotation,setRotation] = useState(0)
-
+	const { scrollY } = useScroll()
 
 	return (
-		<div className="flex small:flex-col justify-center items-start small:items-center font-mada p-32 small:px-12 pt-64 text-charcoal select-none relative gap-40 small:gap-10 h-screen  snap-centerv mb-[10vw]">
+		<div className="flex small:flex-col justify-center items-start small:items-center font-mada p-32 small:px-12 pt-32 text-charcoal select-none relative gap-40 small:gap-10 h-screen  snap-centerv mb-16">
 
 			<div className="w-[30%] h-full relative small:w-[60vw]">
 				<div className="small:absolute top-0 h-[60%] flex flex-col justify-start small:items-center gap-5 small:gap-0">
@@ -37,10 +38,20 @@ function Introduction() {
 				</div>
 			</div>
 
-			<div className="text-[2vw] small:text-[1.8vh] w-[50%] small:w-auto flex flex-col items-end small:items-center leading-snug relative">
+			<div className="text-[2vw] small:text-[1.8vh] w-[50%] small:w-auto flex flex-col items-end small:items-center leading-snug relative" ref={ref}>
 
-				<Line index={1} base={-20}>Driven by a passion for crafting innovative</Line>
-				<Line index={2} base={-40}>solutions, I apply a highly methodical</Line>
+				<Line
+					scrollY={scrollY} 
+					base={-20}
+				>
+					Driven by a passion for crafting innovative
+				</Line>
+				<Line
+					scrollY={scrollY} 
+					base={-40}
+				>
+					solutions, I apply a highly methodical
+				</Line>
 				
 				<section className="relative w-full flex justify-start items-center gap-2 -mt-2 small:-mt-0">
 					<img
@@ -49,15 +60,35 @@ function Introduction() {
 						src="./others/introPhoto.webp"
 					/>
 					<div>
-						<Line index={3} base={80}>approach to product development.</Line>
-						<Line index={4} base={60}>over time, my journey has unfolded</Line>
-						<Line index={5} base={40}>with a diverse array of experiences</Line>
-						<Line index={6} base={20}>working with various startups to</Line>
+						<Line
+							scrollY={scrollY} 
+							base={80}
+						>
+							approach to product development.
+						</Line>
+						<Line
+							scrollY={scrollY} 
+							base={60}
+						>
+							over time, my journey has unfolded
+						</Line>
+						<Line
+							scrollY={scrollY} 
+							base={40}
+						>
+							with a diverse array of experiences
+						</Line>
+						<Line
+							scrollY={scrollY} 
+							base={20}
+						>
+							working with various startups to
+						</Line>
 					</div>
 				</section>
 
 				<Line
-				 	index={7} 
+					scrollY={scrollY}
 					base={-60}
 				>
 					leading successful ‎ 
@@ -69,12 +100,33 @@ function Introduction() {
 						fundraising
 					</a>
 					‎ efforts. 
-				</Line>
+				
+			</Line>
 
-				<Line index={7} base={-80}>Beyond developing solutions, I am committed</Line>
-				<Line index={8} base={-100}>to fostering developer and designer</Line>
-				<Line index={9} base={-120}>communities and leading with a vision for a</Line>
-				<Line index={10} base={-140}>tech-driven future.</Line>
+				<Line
+					scrollY={scrollY} 
+					base={-80}
+				>
+					Beyond developing solutions, I am committed
+				</Line>
+				<Line
+					scrollY={scrollY} 
+					base={-100}
+				>
+					to fostering developer and designer
+				</Line>
+				<Line
+					scrollY={scrollY} 
+					base={-120}
+				>
+					communities and leading with a vision for a
+				</Line>
+				<Line
+					scrollY={scrollY} 
+					 base={-140}
+					>
+						tech-driven future.
+					</Line>
 			</div>
 		</div>
 	)

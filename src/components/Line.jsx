@@ -1,13 +1,9 @@
-import { useScroll,useSpring,useTransform,motion } from "framer-motion"
-function Line({children,base,index}) {
-	const { scrollY } = useScroll()
-	const springScroll = useSpring(scrollY, {
-		stiffness: 80,
-		damping: 30,
-		restDelta: 0.01,
-	})
-	const textScroll = useTransform(springScroll,[500,1300],[base*2,0])
-	const textOpacity = useTransform(springScroll,[0,1200],[0,1],{clamp: false})
+import { useTransform,motion } from "framer-motion"
+function Line({children,base,scrollY}) {
+
+	
+	const textScroll = useTransform(scrollY,[500,1100],[base*2,0])
+	const textOpacity = useTransform(scrollY,[500,1100],[0.1,1])
 
 	return (
 		<motion.p 

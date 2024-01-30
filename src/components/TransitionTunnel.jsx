@@ -13,7 +13,7 @@ function TransitionTunnel() {
 
 
 	const bgWidthTransition = useTransform(scrollYProgress,[0.6,1],["100%","23%"])
-	const bgHeightTransition = useTransform(scrollYProgress,[0.6,1],["10%","5.5%"])
+	const bgHeightTransition = useTransform(scrollYProgress,[0.6,1],["13%","7.5%"])
 	const roundedTransition = useTransform(scrollYProgress,[0.6,1],["0.75rem","3rem"])
 	const bgXTranslate = useTransform(scrollYProgress,[0.6,1],["0vw","20vw"])
 	const bgYTranslate = useTransform(scrollYProgress,[0.6,1],["5%","20%"])
@@ -22,10 +22,10 @@ function TransitionTunnel() {
 
 
 	return (
-		<div ref={ref} className="w-screen h-[900vh] flex flex-col  p-14 relative items-end small:hidden">	
+		<div ref={ref} className="w-screen h-[700vh] flex flex-col p-14 relative items-end ">	
 
 			<motion.div 
-				className="w-full bg-tunnelBg bg-cover bg-no-repeat bg-fill bg-[100%] h-[90vh]  sticky top-10  p-2  overflow-hidden"
+				className="w-full bg-tunnelBg bg-cover bg-center bg-no-repeat bg-fill sticky top-10  p-2  overflow-hidden"
 				style={{
 					width:bgWidthTransition,
 					height:bgHeightTransition,
