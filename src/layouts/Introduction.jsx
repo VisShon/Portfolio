@@ -46,7 +46,7 @@ function Introduction() {
 					<img
 						className="hover:scale-105 transition-all ease-in-out select-none w-[20%]" 
 						alt="Vishnu Shon"
-						src="./others/introPhoto.png"
+						src="./others/introPhoto.webp"
 					/>
 					<div>
 						<Line index={3} base={80}>approach to product development.</Line>

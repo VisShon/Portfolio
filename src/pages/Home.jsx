@@ -66,7 +66,7 @@ function Home() {
 			{
 				urlPath==="dashboard"?
 				<Dashboard/>:
-				<main className="flex bg-ivory flex-col items-center relative  w-screen h-fit overflow-x-clip overscroll-contain snap-y snap-scroll-points z-20 mb-[100vh]">
+				<main className="flex bg-ivory flex-col items-center relative  w-screen h-fit overflow-x-clip overscroll-contain snap-y snap-scroll-points z-20 mb-[100vh] small:mb-0">
 					<Hero/>
 					<Introduction/>
 					<Experiences/>

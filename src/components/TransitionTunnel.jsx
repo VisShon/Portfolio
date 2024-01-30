@@ -25,7 +25,7 @@ function TransitionTunnel() {
 		<div ref={ref} className="w-screen h-[900vh] flex flex-col  p-14 relative items-end small:hidden">	
 
 			<motion.div 
-				className="w-full bg-tunnelBg bg-no-repeat bg-fill bg-[100%] h-[90vh]  sticky top-10  p-2  overflow-hidden"
+				className="w-full bg-tunnelBg bg-cover bg-no-repeat bg-fill bg-[100%] h-[90vh]  sticky top-10  p-2  overflow-hidden"
 				style={{
 					width:bgWidthTransition,
 					height:bgHeightTransition,

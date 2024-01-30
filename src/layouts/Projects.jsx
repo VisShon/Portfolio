@@ -1,4 +1,4 @@
-import ProjectTile from "../components/ProjectTile"
+import ProjectTile from "../components/Project/ProjectTile"
 import projects from "../content/data/project.json"
 
 function Projects() {

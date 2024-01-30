@@ -1,11 +1,11 @@
 import { useAnimate,useScroll,useSpring,useTransform,motion } from "framer-motion"
-import { useEffect, useState } from "react"
+import { useEffect, useState, useRef } from "react"
 
 
 function Wabbit() {
 	const [scope, animate] = useAnimate()
 	const [focus,setFocus] = useState(false)
-	const audio = new Audio("./music.mp3")
+	const audio = useRef(null)
 	
 	const { scrollY } = useScroll()
 	const springScroll = useSpring(scrollY, {
@@ -21,20 +21,34 @@ function Wabbit() {
 	wabbitBlur.onChange((current, value) => {setBlur(current)})
 
 	const burstGum = async() =>{
+		setFocus(true)
+		await animate(
+			".gum",
+			{
+				scale:0,
+				x:-100
+			},
+			{repeat:0, ease: "easeInOut", duration:1}
+		)
+		await audio.current.play()			
+		return
+	}
 
-		if (audio.paused) {
-			setFocus(true)
-			await animate(
-				".gum",
-				{
-					scale:0,
-					x:-100
-				},
-				{repeat:0, ease: "easeInOut", duration:1}
-			)
-			await audio.play()
-		} 			
-		
+	
+	const stopAudio = async() =>{
+		audio.current.currentTime = 0
+		audio.current.src=""
+		await audio.current.pause()	
+		setFocus(false)
+		await animate(
+			".gum",
+			{
+				scale:1,
+				x:0
+			},
+			{repeat:0, ease: "easeInOut", duration:1}
+		)
+		return 	
 	}
 
 	useEffect(() => {
@@ -54,13 +68,14 @@ function Wabbit() {
 				y:wabbitScroll,
 				filter:`blur(${blur}px)`
 			}}
-			className="large:w-[70vh] small:h-[80vh] absolute large:top-64 small:bottom-32 z-20 flex justify-start small:-ml-[10%]" 
-			onClick={burstGum} 
+			
+			className="large:w-[70vh] small:h-[80vh] small:left-0 absolute large:top-64 small:bottom-32 z-20 flex justify-start" 
 			ref={scope}
 		>
 			<img 
-				className="relative z-10 w-[90%] small:w-full object-contain drop-shadow-lg"
+				className="relative z-10 w-[90%] small:w-full object-contain drop-shadow-lg cursor-pointer"
 				alt="wabbit"
+				onClick={stopAudio}
 				src="./others/wabbit.webp"
 			/>
 
@@ -71,10 +86,13 @@ function Wabbit() {
 				src="/others/burstbubblegum.svg"
 			/>:
 			<img
-				className="gum absolute top-[30%] small:top-[26vh] -right-2 small:-right-12  z-20 w-[30%] cursor-pointer select-none drop-shadow-lg"
+				className="gum absolute top-[30%] small:top-[26vh] -right-2 small:-right-10  z-20 w-[30%] cursor-pointer select-none drop-shadow-lg"
 				alt="bubblegum"
+				onClick={burstGum} 
 				src="/others/bubblegum.svg"
 			/>}
+
+			<audio ref={audio} id="Audio" src="./music.mp3"/>
 			
 		</motion.div>
 	)

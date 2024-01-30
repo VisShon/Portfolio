@@ -25,7 +25,7 @@ function Navbar() {
 						className="hover:text-charcoal transition-colors" 
 						target="_blank"
 											rel="noreferrer"
-						href={"https://www.figma.com/community/file/1292935637129990867"}>
+						href={"https://www.figma.com/community/file/1292935637129990867/visshon"}>
 						Like This ?
 					</a>
 				</div>

@@ -36,7 +36,7 @@ function StarCircle({index, diameter, star,scrollY}) {
 
 	return (
 		<motion.div 
-			className={`star-right ${size<3000?showVariants[0]:showVariants[1]}  rounded-full  border-[0.75px] border-chalk z-0  small:hidden ${star?variants[0]:variants[1]}`}
+			className={`star-right ${size<2400?showVariants[0]:showVariants[1]}  rounded-full  border-[0.75px] border-chalk z-0  small:hidden ${star?variants[0]:variants[1]}`}
 			style={{
 				width: 	scaleTransition,
 				height: scaleTransition,

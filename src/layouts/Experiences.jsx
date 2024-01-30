@@ -8,8 +8,8 @@ import experience from "../content/data/experince.json"
 function Experiences() {
 
 	const variants = {
-		0:"h-[1208vh]",
-		1:"h-[600vh]",
+		0:"h-[618vh]",
+		1:"h-[472vh]",
 	}
 
 	const AnimationVariants = {
@@ -50,9 +50,9 @@ function Experiences() {
 
 	return (
 		<>
-			<div className={`p-12 small:p-4 w-full font-mada bg-ivory text-charcoal select-none relative mb-[20vh] ${device==="SMALL"?variants[1]:variants[0]}` }>
+			<div  className={`p-12 small:p-4 w-full font-mada bg-ivory text-charcoal select-none relative mb-20 small:mb-0 ${device==="SMALL"?variants[1]:variants[0]}` }>
 
-				<div className="absolute flex flex-col items-center justify-start w-[50%] small:w-[40%] gap-20 z-20">
+				<div className="absolute flex flex-col items-center justify-start w-[50%] small:w-[40%] gap-20 z-20 ">
 					{experience.slice(0,4).map((experience,index)=>
 						<ExperienceCard 
 							key={index}
@@ -65,7 +65,7 @@ function Experiences() {
 					)}
 				</div>
 
-				<div className="border-[1.5px] h-[80vh] small:h-[90vh] rounded-md  border-grey p-24 flex justify-end sticky top-20 small:top-10 small:p-4 ">
+				<div className="border-[1.5px] h-[80vh] small:h-[90vh] rounded-md  border-grey p-24 flex justify-end sticky top-20 small:top-10 small:p-4" >
 
 					<motion.div 
 						className="w-[40%] small:w-[55%] flex flex-col small:h-[100%] justify-center items-start small:justify-start ease-in-out transition-all"

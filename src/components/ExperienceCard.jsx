@@ -7,12 +7,8 @@ function ExperienceCard({index,logo,device,setCurrent,setAnimate}) {
 	const inView = useInView(ref)
 
 	const variants = {
-		0:"h-[145vh]",
+		0:"h-[95vh]",
 		1:"h-[145vh]",
-		2:"h-[145vh]",
-		3:"h-[73vh]",
-		4:"h-[291vh]",
-
 	}
 
 	useEffect(()=>{
@@ -28,10 +24,10 @@ function ExperienceCard({index,logo,device,setCurrent,setAnimate}) {
 	
 	
 	return (
-		<div  className={`w-full ${device==="SMALL"?variants[index]:variants[4]} relative`}
+		<div  className={`w-full ${device==="SMALL"?variants[0]:variants[1]} relative  overflow-visible`}
 		>
 			<div 
-				className="flex flex-col justify-center items-center w-full h-[80vh] small:h-[30vh] sticky top-20 small:top-10 p-2 " 
+				className="flex flex-col justify-center items-center w-full h-[80vh] small:h-[30vh] sticky top-20 small:top-10 p-2  overflow-visible" 
 			>
 				<img 
 					className="absolute h-[60%] small:h-[40%]"
@@ -43,7 +39,7 @@ function ExperienceCard({index,logo,device,setCurrent,setAnimate}) {
 					ref={ref}
 					alt="Experience"
 					className="w-full rounded-md h-full object-cover"
-					src={`./others/${index+1}BG.png`}
+					src={`./others/${index+1}BG.webp`}
 				/>
 
 			</div>

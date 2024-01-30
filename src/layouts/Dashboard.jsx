@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { motion } from "framer-motion" 
 
-import DashboardButton from "../components/DashboardButton"
+import DashboardButton from "../components/Dashboard/DashboardButton"
 import ScrollBanner from "../components/ScrollBanner"
 
 import experience from "../content/data/experince.json"

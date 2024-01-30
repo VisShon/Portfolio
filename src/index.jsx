@@ -11,6 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"))
 
 root.render(
 	<>
+		<Navbar/>
+
 		<ReactLenis 
 			options={{
 				smoothWheel: true,
@@ -19,11 +21,9 @@ root.render(
 				easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
 			}} 
 			root={root}>
-			<Navbar/>
 			<Home/>
 		</ReactLenis>
-
-		 
+		
 		<Footer/>
 	</>
 )
