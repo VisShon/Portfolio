@@ -53,7 +53,7 @@ function Ethics() {
 
 
 				<motion.div 
-					className="w-full h-screen flex flex-col justify-center absolute -bottom-40 snap-center small:hidden"
+					className="w-full h-screen flex flex-col justify-center absolute -bottom-40 snap-center "
 					initial={{opacity:0}}
 					whileInView={{opacity: 1}}
 					transition={{
@@ -66,7 +66,7 @@ function Ethics() {
 				>
 
 					<div className="flex justify-center list-none">
-						<ul  className=" font-mada text-[2.5vw] small:text-[1.8vh] w-[40%] small:w-auto flex flex-col items-start small:items-center leading-snug relative">
+						<ul  className=" font-mada small:font-[300] text-[2.5vw] small:text-[3vh] w-[40%] small:w-auto flex flex-col items-start small:items-center leading-snug relative  small:text-chalk">
 							<li>With strong work ethics, I</li>
 							<li>hold integrity in high regard</li>
 							<li>A systematic and organized</li>

@@ -38,6 +38,7 @@ function DashboardButton({index,descp,title,data,setBg}) {
 				<div className={`relative text-left bg-noise w-full h-full  p-10 small:p-4 small:hover:p-4 hover:p-12 transition-all ease-in-out duration-300 flex flex-col items-end justify-between rounded-3xl z-0`}>
 					<img 
 						alt={title}
+						loading="lazy"
 						src="./icons/arrowWhite.svg"
 					/>
 
@@ -82,6 +83,7 @@ function DashboardButton({index,descp,title,data,setBg}) {
 								className="absolute top-10 right-10 small:right-0 small:top-4 z-40">
 								<img 
 									className="small:w-[50%]"
+									loading="lazy"
 									alt="Back to Dashboard"
 									src="./icons/cross.svg"
 								/>

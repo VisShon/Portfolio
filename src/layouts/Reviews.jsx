@@ -64,11 +64,12 @@ function Reviews() {
 				<img
 					className="absolute -bottom-5  small:right-10 small:h-[50%]"
 					alt="Reviews"
+					loading="lazy"
 					src="./icons/comma.svg"
 				/>
 			</section>
 
-			<div className="grid grid-cols-2 gap-x-[2vw] small:gap-12 grid-flow-row-dense small:flex small:flex-col small:px-8 h-[50vh]">
+			<div className="grid grid-cols-2 gap-x-[2vw] small:gap-12 grid-flow-row-dense small:flex small:flex-col small:px-8 h-[50vh] small:h-[55vh]">
 
 				{
 					reviews.slice(0,device==="SMALL"?3:undefined)

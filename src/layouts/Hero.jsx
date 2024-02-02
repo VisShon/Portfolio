@@ -58,6 +58,7 @@ function Hero() {
 							<img
 								className="absolute top-0 transition-all ease-in-out" 
 								alt="Link"
+								loading="lazy"
 								src="./icons/arrow.svg"
 							/>}
 							<ul>
@@ -80,6 +81,7 @@ function Hero() {
 							<img
 								className="absolute top-0 transition-all ease-in-out w-[40%] " 
 								alt="Link"
+								loading="lazy"
 								src="./icons/arrow.svg"
 							/>}
 							<ul>

@@ -40,6 +40,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 									href={link?.url}>
 									<img 
 										className="w-[2rem] object-contain"
+										loading="lazy"
 										alt={link.name}
 										src={`./icons/${link.name}Dark.svg`}
 									/>
@@ -57,6 +58,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 						>
 							<img 
 								alt={"Go Back"}
+								loading="lazy"
 								className="w-[50%] "
 								src="./icons/cross.svg"
 							/>
@@ -69,6 +71,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 										project.image&&
 										<img
 											alt={project?.title}
+											loading="lazy"
 											className="w-full object-contain h-[40vh] small:h-full"
 											src={project?.image}
 										/>
@@ -84,6 +87,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 											<img
 												alt={project?.title}
 												className="w-full object-cover h-[50vh] object-top"
+												loading="lazy"
 												src={project?.images[0]}
 											/>
 										</a>
@@ -101,6 +105,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 												<img
 													alt={project?.title}
 													className="w-full object-contain h-[40vh] small:h-full"
+													loading="lazy"
 													src={project?.images[1]}
 												/>
 											</a>
@@ -114,6 +119,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 												href={project?.images[2]}>
 												<img
 													alt={project?.title}
+													loading="lazy"
 													className="w-full object-contain h-[40vh] small:h-full"
 													src={project?.images[2]}
 												/>
@@ -135,6 +141,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 													href={project?.images[3]}>	
 													<img
 														alt={project?.title}
+														loading="lazy"
 														className="w-full object-contain h-[50vh] object-left small:h-full"
 														src={project?.images[3]}
 												/>	
@@ -158,6 +165,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 														href={project?.images[4]}>
 														<img
 															alt={project?.title}
+															loading="lazy"
 															className="w-full object-contain h-[40vh] small:h-full"
 															src={project?.images[4]}
 														/>
@@ -173,6 +181,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 														<img
 															className="w-full object-contain h-[40vh] small:h-full"
 															alt={project?.title}
+															loading="lazy"
 															src={project?.images[5]}
 														/>
 													</a>
@@ -195,6 +204,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 														<img
 															className="w-full object-fill h-fit small:h-full"
 															alt={project?.title}
+															loading="lazy"
 															src={image}
 														/>
 													</a>

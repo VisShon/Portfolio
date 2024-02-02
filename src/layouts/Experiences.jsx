@@ -72,25 +72,27 @@ function Experiences() {
 				<div className="border-[1.5px] h-[80vh] small:hidden rounded-md  border-grey p-24 flex justify-end sticky top-20 small:top-10 small:p-4" >
 
 					<motion.section 
-						className="w-[40%] small:w-[55%] flex flex-col small:h-[100%] justify-center items-start small:justify-start ease-in-out transition-all"
+						className="w-[40%] small:w-[55%] flex flex-col small:h-[100%] justify-between py-20 items-start small:justify-start ease-in-out transition-all"
 						variants={AnimationVariants} 
 						animate={animation ? 'hide' : 'show'}
 					>
 
-						<a  
-							className="font-[400] text-[3vw] leading-tight small:text-4xl mb-2"
-							alt={experience[index]?.title}
-							target="_blank"
-							title={experience[index]?.title}
-							rel="noreferrer"
-							href={experience[index]?.links[0].url}>
-							{experience[index]?.title}	
-						</a>
+						<section className="flex flex-col">
+							<a  
+								className="font-[400] text-[3vw] leading-tight small:text-4xl mb-2"
+								alt={experience[index]?.title}
+								target="_blank"
+								title={experience[index]?.title}
+								rel="noreferrer"
+								href={experience[index]?.links[0].url}>
+								{experience[index]?.title}	
+							</a>
 
-						<p  
-							className="rounded-full border-[1.5px] border-grey py-1 px-2 small:px-1 small:py-0 w-fit mb-10 text-lg small:text-[0.65rem] small:tracking-tighter">
-							{experience[index]?.date}
-						</p>
+							<p  
+								className="rounded-full border-[1.5px] border-grey py-1 px-2 small:px-1 small:py-0 w-fit mb-10 text-lg small:text-[0.65rem] small:tracking-tighter">
+								{experience[index]?.date}
+							</p>
+						</section>
 
 						<div   
 							className="flex flex-col gap-5 text-[1vw] small:text-[2vh] small:absolute small:bottom-[12vh] small:-right-4 small:px-4 small:w-[90vw]">
@@ -106,6 +108,7 @@ function Experiences() {
 					<motion.img
 						animate={{rotateZ:rotation}}
 						className="absolute bottom-10 right-10 small:right-10"
+						loading="lazy"
 						alt="Star"
 						src="./icons/darkStar.svg"
 					/>
@@ -120,6 +123,7 @@ function Experiences() {
 							>
 								<img 
 									className="absolute h-[10%] z-10"
+									loading="lazy"
 									alt={experience.title}
 									src={experience.image}
 								/>
@@ -163,6 +167,7 @@ function Experiences() {
 							<motion.img
 								animate={{rotateZ:rotation}}
 								className="absolute bottom-10 right-10 small:right-10"
+								loading="lazy"
 								alt="Star"
 								src="./icons/darkStar.svg"
 							/>

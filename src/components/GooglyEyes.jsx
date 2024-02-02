@@ -6,10 +6,11 @@ function GooglyEyes({xposition, yposition}) {
 
 
 	return (
-		<div className="w-[20%] h-full rounded-full p-2  flex flex-col justify-start items-start relative ">
+		<div className="w-[20%] h-full rounded-full p-2  flex flex-col justify-start items-start relative  small:hidden">
 
 			<img
 				className="object-fill rounded-full absolute w-[90%] bottom-0 z-0 "
+				loading="lazy"
 				alt="Vishnu Selfie"
 				src="./others/ethicPhoto.webp"
 			/>

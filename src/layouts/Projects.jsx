@@ -6,6 +6,8 @@ import { motion, useScroll, useMotionValueEvent } from "framer-motion"
 function Projects() {
 
 	const [rotation,setRotation] = useState(0)
+	const [selected,setSelected] = useState(-1)
+
 	const {scrollY} = useScroll()
 	useMotionValueEvent(scrollY, "change", 
 		(latest) => setRotation(prev=>prev+scrollY?.current/8000)
@@ -37,21 +39,30 @@ function Projects() {
 
 			</div>
 
-			<div className="w-full flex flex-col relative z-10">
+			<ul className="w-full flex flex-col relative z-10 list-none">
 				{projects?.slice(0,5)?.map(
 					(project,index)=>(
 						<ProjectTile
 							key={index}
 							index={index}
-							title={project.title}
 							project={project}
-							descriptions={project.descriptions}
-							image={project.images[0]}
-							links={project.links}
-						/>
+							setSelected={setSelected}
+						>
+							{selected===index?
+								<motion.div 
+									className="w-[42rem] popup small:hidden h-[25rem] absolute bottom-[100%] left-[15%] rounded-md border-[1.5px] border-charcoal p-3 bg-chalk z-20"
+									layoutId="popup"
+								>
+									<img
+										className="w-full h-full object-contain"
+										alt={project?.title}
+										src={project?.images[0]}
+									/>
+								</motion.div>:null}
+						</ProjectTile>
 					)
 				)}
-			</div>
+			</ul>
 
 		</section>
 	)

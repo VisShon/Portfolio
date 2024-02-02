@@ -51,6 +51,7 @@ function StarCircle({index, diameter, star,scrollY}) {
 				<img
 					className="absolute"
 					alt="Star"
+					loading="lazy"
 					style={{
 						width: starSize,
 						height: starSize,

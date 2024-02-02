@@ -18,9 +18,9 @@ function Title() {
 	const titleScroll = useTransform(springScroll,[0,800],[0,-50])
 
 	return (
-		<header className="flex flex-col justify-start items-center small:items-start w-full small:px-5 small:mt-24 small:-ml-4 h-[11.5vw] small:h-[20vh] mb-8 small:-mb-12">
+		<header className="flex flex-col justify-start items-center small:items-start w-full small:px-5 small:mt-12 small:-ml-4 h-[11.5vw] small:h-[23vh] mb-8 small:-mb-12">
 			<motion.h2 
-				className="font-[400] text-4xl my-2 small:my-0  small:text-2xl small:-mb-4"
+				className="font-[400] small:font-[300] text-4xl my-2 small:my-0  small:text-4xl small:-mb-4"
 				style={{
 					filter:`blur(${blur}px)`
 				}}>
@@ -44,7 +44,7 @@ function Title() {
 					cursor={false}
 					preRenderFirstString={true}
 					speed={150}
-					className="font-luimp italic font-[400] text-[14vw] small:text-[9.5vh] text-charcoal tracking-[-13px] small:tracking-[-6px] text-center small:text-left small:-ml-2"
+					className="font-luimp italic font-[400] text-[14vw] small:text-[20vw] text-charcoal tracking-[-13px] small:tracking-[-6px] text-center small:text-left small:-ml-2"
 					repeat={Infinity}
 				/>
 			</motion.div>

@@ -26,7 +26,7 @@ function Navbar() {
 						Resume
 					</a>
 					<a
-						className="hover:text-charcoal transition-colors" 
+						className="hover:text-charcoal transition-colors small:hidden" 
 						target="_blank"
 						title="Figma"
 						rel="noreferrer"

@@ -10,12 +10,12 @@ function Introduction() {
 	const { scrollY } = useScroll()
 
 	return (
-		<section title="Introduction"  className="flex small:flex-col justify-center items-start small:items-center small:justify-start font-mada p-32 small:px-12 pt-32 small:pt-4  text-charcoal select-none relative gap-40 small:gap-10 h-screen small:h-[auto]  snap-centerv mb-[5rem] small:mb-0">
+		<section title="Introduction"  className="flex small:flex-col justify-center items-start small:items-center small:justify-start font-mada p-32 small:px-12 pt-32 small:pt-8  text-charcoal select-none relative gap-40 small:gap-10 h-screen small:h-[70vh]  snap-centerv mb-[5rem] ">
 
 			<section className="w-[30%] small:gap-10 relative small:w-[90vw] h-[60%] flex flex-col justify-start small:items-end gap-5  small:text-left">
 				<h1 
 					title="Vishnu Shon" 
-					className="font-luimp italic font-[400] small:text-[12vh] text-9xl leading-[7rem] small:leading-none text-charcoal text-right small:text-left">
+					className="font-luimp italic font-[400] small:text-[32vw] text-9xl leading-[7rem] small:leading-none text-charcoal text-right small:text-right">
 					Vishnu Shon
 				</h1>
 				
@@ -25,6 +25,7 @@ function Introduction() {
 						onMouseLeave={()=>setRotation(rotation=>rotation+30)}
 						onClick={()=>setRotation(rotation=>rotation+30)}
 						animate={{rotateZ:rotation}}
+						loading="lazy"
 						className="w-[15%] small:w-[8vh]"
 						alt="Star"
 						src="./icons/star.svg"
@@ -37,7 +38,7 @@ function Introduction() {
 					</ul>
 				</section>
 
-				<article className="large:hidden text-[2vh] small:p-2 w-full flex flex-col items-center leading-snug relative  text-left"  title="Bio" ref={ref}>
+				<article className="large:hidden  text-[4.5vw] small:p-2 w-full flex flex-col items-center leading-snug relative  text-left"  title="Bio" ref={ref}>
 
 					<Line
 						scrollY={scrollY} 
@@ -56,6 +57,7 @@ function Introduction() {
 						<img
 							className="hover:scale-105 transition-all ease-in-out select-none w-[20%]" 
 							alt="Vishnu Shon"
+							loading="lazy"
 							src="./others/introPhoto.webp"
 						/>
 						<ul className="list-none">
@@ -111,25 +113,19 @@ function Introduction() {
 						scrollY={scrollY} 
 						base={5}
 					>
-						Beyond developing solutions, I am committed
+						Beyond developing solutions, I am committed to fostering developer and 
 					</Line>
 					<Line
 						scrollY={scrollY} 
 						base={4}
 					>
-						to fostering developer and designer
+						designer communities and leading with a
 					</Line>
 					<Line
 						scrollY={scrollY} 
 						base={3}
 					>
-						communities and leading with a vision for a
-					</Line>
-					<Line
-						scrollY={scrollY} 
-						base={2}
-						>
-							tech-driven future.
+						 vision for a tech-driven future.
 					</Line>
 				</article>
 			</section>
@@ -152,6 +148,7 @@ function Introduction() {
 				<section className="relative w-full flex justify-start items-center gap-2 -mt-2 small:-mt-0">
 					<img
 						className="hover:scale-105 transition-all ease-in-out select-none w-[20%]" 
+						loading="lazy"
 						alt="Vishnu Shon"
 						src="./others/introPhoto.webp"
 					/>

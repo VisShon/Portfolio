@@ -22,7 +22,7 @@ function TransitionTunnel() {
 
 
 	return (
-		<div ref={ref} className="w-screen h-[700vh] small:h-[400vh] flex flex-col p-14 small:p-2 relative items-end  ">	
+		<div ref={ref} className="w-screen h-[700vh] small:h-[600vh] flex flex-col p-14 small:p-2 relative items-end  ">	
 
 			<motion.div 
 				className="w-full bg-contain sticky top-10  p-2  overflow-hidden  Tunnel small:hidden"
@@ -138,7 +138,7 @@ function TransitionTunnel() {
 
 
 			<div 
-				className="bg-contain sticky top-2  p-2  overflow-hidden  large:hidden Tunnel w-full h-[22%] rounded-[0.75rem]"
+				className="bg-contain sticky top-2  p-2  overflow-hidden  large:hidden Tunnel w-full h-[98vh] rounded-[0.75rem]"
 			>
 
 				<div className="relative flex flex-col items-center justify-center w-full h-full bg-noise ">

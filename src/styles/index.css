@@ -7,6 +7,7 @@
   font-family: "Luimp";
   src: url(./fonts/LuimpItalic.ttf);
   src: url(./fonts/Luimp.ttf);
+  font-weight: 300;
 }
 
 ::-webkit-scrollbar {

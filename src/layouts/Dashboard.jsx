@@ -85,6 +85,7 @@ function Dashboard() {
 			>
 				<img 
 					alt="Home"
+					loading="lazy"
 					src="./icons/cross.svg"
 				/>
 			</motion.a>

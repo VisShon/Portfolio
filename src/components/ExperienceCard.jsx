@@ -33,6 +33,7 @@ function ExperienceCard({index,logo,setCurrent,setAnimate}) {
 			>
 				<img 
 					className="absolute h-[60%] small:h-[40%] z-10"
+					loading="lazy"
 					alt={logo}
 					src={logo}
 				/>
