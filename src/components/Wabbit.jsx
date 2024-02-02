@@ -78,7 +78,7 @@ function Wabbit() {
 	}, [animate])
 
 	return (
-		<motion.div 
+		<motion.section 
 			style={{
 				y:wabbitScroll,
 				filter:`blur(${blur}px)`
@@ -109,7 +109,7 @@ function Wabbit() {
 
 			<audio ref={audio} id="Audio" src="./music.mp3"/>
 			
-		</motion.div>
+		</motion.section>
 	)
 }
 

@@ -1,15 +1,11 @@
 import { useInView } from "framer-motion"
 import { useRef,useEffect } from "react"
 
-function ExperienceCard({index,logo,device,setCurrent,setAnimate}) {
+function ExperienceCard({index,logo,setCurrent,setAnimate}) {
 
 	const ref = useRef(null)
 	const inView = useInView(ref)
 
-	const variants = {
-		0:"h-[95vh]",
-		1:"h-[145vh]",
-	}
 
 	useEffect(()=>{
 		if(inView){
@@ -21,28 +17,31 @@ function ExperienceCard({index,logo,device,setCurrent,setAnimate}) {
 		}
 	},[inView,index,setAnimate,setCurrent])
 
-	
+	const bgVariants = {
+		0:"Staybook",
+		1:"Mathworks",
+		2:"Government",
+		3:"Respct",
+	}
 	
 	return (
-		<div  className={`w-full ${device==="SMALL"?variants[0]:variants[1]} relative  overflow-visible`}
+		<div  className={`w-full small:h-full h-[145vh] relative  overflow-visible`}
 		>
-			<div 
-				className="flex flex-col justify-center items-center w-full h-[80vh] small:h-[30vh] sticky top-20 small:top-10 p-2  overflow-visible" 
+			<section 
+				ref={ref}
+				className="flex flex-col justify-center items-center w-full h-[80vh] small:h-[20vh] sticky small:absolute top-20 small:top-0 p-2  overflow-visible" 
 			>
 				<img 
-					className="absolute h-[60%] small:h-[40%]"
+					className="absolute h-[60%] small:h-[40%] z-10"
 					alt={logo}
 					src={logo}
 				/>
 
-				<img 
-					ref={ref}
-					alt="Experience"
-					className="w-full rounded-md h-full object-cover"
-					src={`./others/${index+1}BG.webp`}
-				/>
+				<aside  title="Experience" className={`realtive w-full z-2 rounded-md h-full ${bgVariants[index]}`}>
+					<div className="w-full h-full z-10 bg-noise "></div>
+				</aside>
 
-			</div>
+			</section>
 		</div>
 	)
 }

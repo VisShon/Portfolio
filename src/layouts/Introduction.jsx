@@ -10,35 +10,35 @@ function Introduction() {
 	const { scrollY } = useScroll()
 
 	return (
-		<div className="flex small:flex-col justify-center items-start small:items-center font-mada p-32 small:px-12 pt-32 text-charcoal select-none relative gap-40 small:gap-10 h-screen  snap-centerv mb-16">
+		<section title="Introduction"  className="flex small:flex-col justify-center items-start small:items-center font-mada p-32 small:px-12 pt-32 text-charcoal select-none relative gap-40 small:gap-10 h-screen  snap-centerv mb-16 small:-mb-10">
 
-			<div className="w-[30%] h-full relative small:w-[60vw]">
-				<div className="small:absolute top-0 h-[60%] flex flex-col justify-start small:items-center gap-5 small:gap-0">
-					<h1 
-						className="font-luimp italic font-[400] small:text-[12vh] text-9xl leading-[7rem] small:leading-none text-charcoal text-right ">
-						Vishnu Shon
-					</h1>
-					
-					<div className="flex justify-end text-sm small:hidden">
-						<motion.img
-							onMouseEnter={()=>setRotation(rotation=>rotation+30)}
-							onMouseLeave={()=>setRotation(rotation=>rotation+30)}
-							onClick={()=>setRotation(rotation=>rotation+30)}
-							animate={{rotateZ:rotation}}
-							className="w-[15%] small:w-[8vh]"
-							alt="Star"
-							src="./icons/star.svg"
-						/>
-						<section className="text-right ml-5">
-							<p>I am proficient with </p>
-							<p>DevOps, Blockchain,</p> 
-							<p>Web Dev and UI/UX.</p>
-						</section>
-					</div>
-				</div>
-			</div>
+			<section className="w-[30%] relative small:w-[60vw] h-[60%] flex flex-col justify-start small:items-center gap-5 small:gap-0">
+				<h1 
+					title="Vishnu Shon" 
+					className="font-luimp italic font-[400] small:text-[12vh] text-9xl leading-[7rem] small:leading-none text-charcoal text-right ">
+					Vishnu Shon
+				</h1>
+				
+				<section className="flex justify-end text-sm small:hidden">
+					<motion.img
+						onMouseEnter={()=>setRotation(rotation=>rotation+30)}
+						onMouseLeave={()=>setRotation(rotation=>rotation+30)}
+						onClick={()=>setRotation(rotation=>rotation+30)}
+						animate={{rotateZ:rotation}}
+						className="w-[15%] small:w-[8vh]"
+						alt="Star"
+						src="./icons/star.svg"
+					/>
+					<ul 
+						className="text-right ml-5 list-none">
+						<li>I am proficient with </li>
+						<li>DevOps, Blockchain,</li> 
+						<li>Web Dev and UI/UX.</li>
+					</ul>
+				</section>
+			</section>
 
-			<div className="text-[2vw] small:text-[1.8vh] w-[50%] small:w-auto flex flex-col items-end small:items-center leading-snug relative" ref={ref}>
+			<article className="text-[2vw] small:text-[1.8vh] w-[50%] small:w-auto flex flex-col items-end small:items-center leading-snug relative"  title="Bio" ref={ref}>
 
 				<Line
 					scrollY={scrollY} 
@@ -59,7 +59,7 @@ function Introduction() {
 						alt="Vishnu Shon"
 						src="./others/introPhoto.webp"
 					/>
-					<div>
+					<ul className="list-none">
 						<Line
 							scrollY={scrollY} 
 							base={80}
@@ -84,7 +84,7 @@ function Introduction() {
 						>
 							working with various startups to
 						</Line>
-					</div>
+					</ul>
 				</section>
 
 				<Line
@@ -127,8 +127,8 @@ function Introduction() {
 					>
 						tech-driven future.
 					</Line>
-			</div>
-		</div>
+			</article>
+		</section>
 	)
 }
 

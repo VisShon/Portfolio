@@ -6,7 +6,7 @@ import Ethics from "../layouts/Ethics"
 import SkillsTools from "../layouts/SkillsTools"
 import Reviews from "../layouts/Reviews"
 import Dashboard from "../layouts/Dashboard"
-
+import Footer from "../components/Footer"
 import Loading from "../components/Loader/index"
 
 import { useRef, useState, useEffect } from "react"
@@ -38,7 +38,7 @@ function Home() {
 			}
 			else {
 				setProgress((prevProgress) => prevProgress + 1)
-				if (progress % 10 === 0 && progress !== 0)
+				if (progress % 5 === 0 && progress !== 0)
 				   setIntervalTime((prevTime) => prevTime / 2)
 			}
 		}, intervalTime)
@@ -56,7 +56,7 @@ function Home() {
 		<>
 			
 			{
-				progress!==100&&
+				progress<100&&
 				<Loading
 					progress={progress}
 					quote={quote}
@@ -66,7 +66,7 @@ function Home() {
 			{
 				urlPath==="dashboard"?
 				<Dashboard/>:
-				<main className="flex bg-ivory flex-col items-center relative  w-screen h-fit overflow-x-clip overscroll-contain snap-y snap-scroll-points z-20 mb-[100vh] small:mb-0">
+				<main className="flex bg-ivory flex-col items-center relative  w-screen h-fit overflow-x-clip overscroll-contain snap-y snap-scroll-points z-20 mb-[100vh] small:mb-0 select-none">
 					<Hero/>
 					<Introduction/>
 					<Experiences/>
@@ -78,7 +78,15 @@ function Home() {
 			}
 
 
-			<div className="loader"></div>
+			{
+				urlPath!=="dashboard"&&
+				progress>=100&&
+				<Footer/>
+			}
+
+			
+
+			<aside className="loader"></aside>
 		</>
 	)
 }

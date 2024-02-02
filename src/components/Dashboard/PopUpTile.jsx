@@ -45,7 +45,7 @@ function PopUpTile({index,title,descriptions,item,bg}) {
 	return (
 		<>
 			<div 
-				className="relative flex border-b-[1.5px] justify-center border-charcoal  gap-10 w-full items-center cursor-pointer bg-contain h-[12vh]"
+				className="relative flex border-b-[1.5px] justify-center  border-charcoal  gap-10 w-full items-center cursor-pointer bg-contain h-[12vh]"
 				onClick={()=>setIsOpen(true)}
 				onMouseEnter={() => setIsHover(true)}
 				onMouseLeave={() => setIsHover(false)}

@@ -72,3 +72,51 @@ code {
   background: linear-gradient(287deg, rgba(27,27,28,1) 0%, rgba(50,19,101,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b1b1c",endColorstr="#321365",GradientType=1);
 }
+
+.Mathworks{
+  background-image: linear-gradient(
+    50deg,
+    hsl(226deg 43% 28%) 0%,
+    hsl(217deg 53% 26%) 21%,
+    hsl(308deg 10% 28%) 42%,
+    hsl(7deg 42% 30%) 63%,
+    hsl(351deg 71% 26%) 84%,
+    hsl(309deg 52% 22%) 100%
+  );
+}
+
+.Staybook{
+  background-image: linear-gradient(
+    70deg,
+    hsl(202deg 84% 17%) 0%,
+    hsl(201deg 85% 18%) 31%,
+    hsl(189deg 100% 16%) 61%,
+    hsl(180deg 99% 15%) 85%,
+    hsl(181deg 100% 15%) 97%,
+    hsl(181deg 100% 15%) 100%
+  );
+}
+
+.Government{
+  background-image: linear-gradient(
+  245deg,
+  hsl(78deg 11% 69%) 0%,
+  hsl(206deg 14% 82%) 55%,
+  hsl(1deg 7% 90%) 85%,
+  hsl(96deg 2% 90%) 97%,
+  hsl(180deg 1% 83%) 100%
+);
+}
+
+.Respct{
+  background-image: linear-gradient(
+  65deg,
+  hsl(232deg 41% 15%) 0%,
+  hsl(238deg 39% 18%) 17%,
+  hsl(254deg 44% 24%) 33%,
+  hsl(268deg 56% 31%) 50%,
+  hsl(275deg 61% 35%) 67%,
+  hsl(278deg 62% 32%) 83%,
+  hsl(280deg 59% 23%) 100%
+);
+}

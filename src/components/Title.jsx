@@ -18,8 +18,7 @@ function Title() {
 	const titleScroll = useTransform(springScroll,[0,800],[0,-50])
 
 	return (
-		<div className="flex flex-col justify-start items-center small:items-start w-full small:px-5 small:mt-24 small:-ml-4 h-[11.5vw] small:h-[20vh] mb-8 small:-mb-12">
-			
+		<header className="flex flex-col justify-start items-center small:items-start w-full small:px-5 small:mt-24 small:-ml-4 h-[11.5vw] small:h-[20vh] mb-8 small:-mb-12">
 			<motion.h2 
 				className="font-[400] text-4xl my-2 small:my-0  small:text-2xl small:-mb-4"
 				style={{
@@ -49,7 +48,7 @@ function Title() {
 					repeat={Infinity}
 				/>
 			</motion.div>
-		</div>
+		</header>
 	)
 }
 

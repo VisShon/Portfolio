@@ -2,7 +2,6 @@ import ReactDOM from "react-dom/client"
 
 import Home from "./pages/Home"
 import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
 
 import "./styles/index.css"
 import { ReactLenis } from '@studio-freight/react-lenis'
@@ -23,7 +22,6 @@ root.render(
 			root={root}>
 			<Home/>
 		</ReactLenis>
-		
-		<Footer/>
+	
 	</>
 )

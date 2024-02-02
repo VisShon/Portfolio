@@ -82,10 +82,6 @@ function Ethics() {
 						/>
 					</div>
 
-					<div>
-						<div></div>
-					</div>
-
 				</motion.div>
 
 			</div>

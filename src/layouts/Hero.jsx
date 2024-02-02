@@ -23,7 +23,7 @@ function Hero() {
 
 
 	return (
-		<div className="relative w-full h-fit flex flex-col justify-start items-center pt-32  snap-center">
+		<section title="Introduction" className="relative w-full h-fit flex flex-col justify-start items-center pt-32  snap-center">
 			
 			<Title/>
 			<GradientWave/>
@@ -36,19 +36,20 @@ function Hero() {
 				}}
 			>
 				
-				<div className="w-fit select-none ">
-					<p>I'm <b> Vishnu Shon, </b></p>
-					<p>I develop</p>
-					<p>solutions that</p>
-					<p>blend creativity</p>
-					<p>with functionality.</p>
-				</div>
+				<ul title="Description"  className="w-fit select-none list-none" >
+					<li>I'm <b> Vishnu Shon, </b></li>
+					<li>I develop</li>
+					<li>solutions that</li>
+					<li>blend creativity</li>
+					<li>with functionality.</li>
+				</ul>
 
-				<div className="w-fit flex flex-col right-0 gap-5 small:hidden">
+				<section className="w-fit flex flex-col right-0 gap-5 small:hidden" title="Awards" >
 					<a
-						className="relative hover:text-[#CCCFD4] transition-all"
+						className="relative hover:text-[#CCCFD4] transition-all list-none"
 						target="_blank"
-											rel="noreferrer"
+						title="Polygon Buidlit Winner"
+						rel="noreferrer"
 						onMouseEnter={()=>setLinkSelected(1)}
 						onMouseLeave={()=>setLinkSelected(0)}
 						href="https://www.facebook.com/hcdiiitd/photos/3283459738578121/?paipv=0&eav=AfbJyIIwVX-zQRLBd9lIKcHDOF-EMF_S6VPrUes4f2yjkS6F26GRJPozk3PLblQ27Hw&_rdr">
@@ -59,15 +60,18 @@ function Hero() {
 								alt="Link"
 								src="./icons/arrow.svg"
 							/>}
-							<p>Bounty Winner,</p>
-							<p>Polygon Buidlit</p>
-							<p>Hackathon</p>							
+							<ul>
+								<li>Bounty Winner,</li>
+								<li>Polygon Buidlit</li>
+								<li>Hackathon</li>							
+							</ul>
 					</a>
 
 					<a
 						className="relative hover:text-[#CCCFD4] transition-all"
 						target="_blank"
-											rel="noreferrer"
+						title="Ethereum India Winner"
+						rel="noreferrer"
 						onMouseEnter={()=>setLinkSelected(2)}
 						onMouseLeave={()=>setLinkSelected(0)}
 						href="https://ethglobal.com/showcase/alkynefi-nampv">
@@ -78,14 +82,16 @@ function Hero() {
 								alt="Link"
 								src="./icons/arrow.svg"
 							/>}
-							<p>Bounty Winner,</p>
-							<p>Ethereum India</p>
-							<p>Hackathon</p>	
+							<ul>
+								<li>Bounty Winner,</li>
+								<li>Ethereum India</li>
+								<li>Hackathon</li>	
+							</ul>
 					</a>
 					
-				</div>
+				</section>
 			</motion.div>
-		</div>
+		</section>
 	)
 }
 

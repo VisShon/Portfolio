@@ -29,31 +29,32 @@ function Avaibility() {
 	},[])
 
 	return (
-		<div 
+		<section 
 			className="flex flex-col gap-1 items-end text-grey font-[500] z-50 font-mada"
 		>
-			<div
+			<p
 				className=" select-none"
 				
 			>
 				Delhi       
 				<b> 🕒 {time.toUpperCase()} </b>
 				GMT (+5:30)
-			</div>
+			</p>
 
-			<div 
+			<p 
 				className="select-none capitalize"
 			>
 				🟢 Available 
 				<b> {month}</b>
-			</div>
+			</p>
 
 			<a
 				href={"mailto:vshon447@gmail.com"}
+				title="email me"
 			>
 				📧 <u> vshon447@gmail.com </u>
 			</a>
-		</div>
+		</section>
 	)
 }
 

@@ -6,15 +6,15 @@ function Line({children,base,scrollY}) {
 	const textOpacity = useTransform(scrollY,[500,1100],[0.1,1])
 
 	return (
-		<motion.p 
-			className="w-full"
+		<motion.li 
+			className="w-full list-none"
 			style={{
 				x:textScroll,
 				opacity:textOpacity
 			}}
 		>
 			{children}
-		</motion.p>
+		</motion.li>
 	)
 }
 
