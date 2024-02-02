@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b8cf50a.css",
+    "main.js": "/static/js/main.ffc1cab3.js",
+    "static/media/noise.svg": "/static/media/noise.60e403c53a6fcafac308.svg",
+    "static/media/LuimpItalic.ttf": "/static/media/LuimpItalic.df8ee2ac0351b5c90087.ttf",
+    "static/media/Luimp.ttf": "/static/media/Luimp.bf6e941c2db310f17221.ttf",
+    "index.html": "/index.html",
+    "main.2b8cf50a.css.map": "/static/css/main.2b8cf50a.css.map",
+    "main.ffc1cab3.js.map": "/static/js/main.ffc1cab3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b8cf50a.css",
+    "static/js/main.ffc1cab3.js"
+  ]
+}
