@@ -46,14 +46,14 @@ function Ethics() {
 		<>
 			<section 
 				title="About"
-				className="w-screen h-fit relative small:hidden bg-ivory" 
+				className="w-screen h-fit relative  bg-ivory small:mt-10" 
 			>
 
 				<TransitionTunnel/>
 
 
 				<motion.div 
-					className="w-full h-screen flex flex-col justify-center absolute -bottom-40 snap-center"
+					className="w-full h-screen flex flex-col justify-center absolute -bottom-40 snap-center small:hidden"
 					initial={{opacity:0}}
 					whileInView={{opacity: 1}}
 					transition={{
@@ -87,7 +87,7 @@ function Ethics() {
 			</section>
 
 			<motion.div 
-				className="w-screen h-[40vh] " 
+				className="w-screen h-[40vh] small:h-[20vh]" 
 				ref={ref}
 				style={{
 					marginBottom:nextTransition

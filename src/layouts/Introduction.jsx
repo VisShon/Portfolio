@@ -10,12 +10,12 @@ function Introduction() {
 	const { scrollY } = useScroll()
 
 	return (
-		<section title="Introduction"  className="flex small:flex-col justify-center items-start small:items-center font-mada p-32 small:px-12 pt-32 text-charcoal select-none relative gap-40 small:gap-10 h-screen  snap-centerv mb-[5rem] small:-mb-10">
+		<section title="Introduction"  className="flex small:flex-col justify-center items-start small:items-center small:justify-start font-mada p-32 small:px-12 pt-32 small:pt-4  text-charcoal select-none relative gap-40 small:gap-10 h-screen small:h-[auto]  snap-centerv mb-[5rem] small:mb-0">
 
-			<section className="w-[30%] relative small:w-[60vw] h-[60%] flex flex-col justify-start small:items-center gap-5 small:gap-0">
+			<section className="w-[30%] small:gap-10 relative small:w-[90vw] h-[60%] flex flex-col justify-start small:items-end gap-5  small:text-left">
 				<h1 
 					title="Vishnu Shon" 
-					className="font-luimp italic font-[400] small:text-[12vh] text-9xl leading-[7rem] small:leading-none text-charcoal text-right ">
+					className="font-luimp italic font-[400] small:text-[12vh] text-9xl leading-[7rem] small:leading-none text-charcoal text-right small:text-left">
 					Vishnu Shon
 				</h1>
 				
@@ -36,9 +36,105 @@ function Introduction() {
 						<li>Web Dev and UI/UX.</li>
 					</ul>
 				</section>
+
+				<article className="large:hidden text-[2vh] small:p-2 w-full flex flex-col items-center leading-snug relative  text-left"  title="Bio" ref={ref}>
+
+					<Line
+						scrollY={scrollY} 
+						base={12}
+					>
+						Driven by a passion for crafting innovative
+					</Line>
+					<Line
+						scrollY={scrollY} 
+						base={11}
+					>
+						solutions, I apply a highly methodical
+					</Line>
+
+					<section className="relative w-full flex justify-start items-center gap-2 -mt-2 small:-mt-0">
+						<img
+							className="hover:scale-105 transition-all ease-in-out select-none w-[20%]" 
+							alt="Vishnu Shon"
+							src="./others/introPhoto.webp"
+						/>
+						<ul className="list-none">
+							<Line
+								scrollY={scrollY} 
+								base={10}
+							>
+								approach to product development.
+							</Line>
+							<Line
+								scrollY={scrollY} 
+								base={9}
+							>
+								over time, my journey has unfolded
+							</Line>
+							<Line
+								scrollY={scrollY} 
+								base={8}
+							>
+								with a diverse array of experiences
+							</Line>
+
+							<Line
+								scrollY={scrollY} 
+								base={7}
+							>
+								working with various startups to
+							</Line>
+
+						</ul>
+					</section>
+
+					
+					
+
+					<Line
+						scrollY={scrollY}
+						base={6}
+					>
+						leading successful ‎ 
+						<a 
+							className="relative hover:text-[#CCCFD4] transition-all underline" 
+							target="_blank"
+												rel="noreferrer"
+							href="https://inc42.com/buzz/meet-the-31-web3-startups-that-are-part-of-first-cohort-of-polygonleap-2021/">
+							fundraising
+						</a>
+						‎ efforts. 
+
+					</Line>
+
+					<Line
+						scrollY={scrollY} 
+						base={5}
+					>
+						Beyond developing solutions, I am committed
+					</Line>
+					<Line
+						scrollY={scrollY} 
+						base={4}
+					>
+						to fostering developer and designer
+					</Line>
+					<Line
+						scrollY={scrollY} 
+						base={3}
+					>
+						communities and leading with a vision for a
+					</Line>
+					<Line
+						scrollY={scrollY} 
+						base={2}
+						>
+							tech-driven future.
+					</Line>
+				</article>
 			</section>
 
-			<article className="text-[2vw] small:text-[1.8vh] w-[50%] small:w-auto flex flex-col items-end small:items-center leading-snug relative"  title="Bio" ref={ref}>
+			<article className="text-[2vw] small:text-[1.8vh] w-[50%] small:hidden flex flex-col items-end small:items-center leading-snug relative"  title="Bio" ref={ref}>
 
 				<Line
 					scrollY={scrollY} 

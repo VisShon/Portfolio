@@ -17,15 +17,15 @@ function TransitionTunnel() {
 	const roundedTransition = useTransform(scrollYProgress,[0.6,1],["0.75rem","3rem"])
 	const bgXTranslate = useTransform(scrollYProgress,[0.6,1],["0vw","20vw"])
 	const bgYTranslate = useTransform(scrollYProgress,[0.6,1],["5%","20%"])
-
+	const smallProgress = useTransform(scrollYProgress,[0,1],[0,0.4])
 
 
 
 	return (
-		<div ref={ref} className="w-screen h-[700vh] flex flex-col p-14 relative items-end ">	
+		<div ref={ref} className="w-screen h-[700vh] small:h-[400vh] flex flex-col p-14 small:p-2 relative items-end  ">	
 
 			<motion.div 
-				className="w-full bg-contain sticky top-10  p-2  overflow-hidden  Tunnel"
+				className="w-full bg-contain sticky top-10  p-2  overflow-hidden  Tunnel small:hidden"
 				style={{
 					width:bgWidthTransition,
 					height:bgHeightTransition,
@@ -35,7 +35,7 @@ function TransitionTunnel() {
 				}}
 			>
 
-				<div className="relative flex flex-col items-center justify-center w-full h-full bg-noise">
+				<div className="relative flex flex-col items-center justify-center w-full h-full bg-noise ">
 
 					<StarCircle
 						index={12}
@@ -137,6 +137,97 @@ function TransitionTunnel() {
 			</motion.div>
 
 
+			<div 
+				className="bg-contain sticky top-2  p-2  overflow-hidden  large:hidden Tunnel w-full h-[22%] rounded-[0.75rem]"
+			>
+
+				<div className="relative flex flex-col items-center justify-center w-full h-full bg-noise ">
+
+					<StarCircle
+						index={12}
+						scrollY={smallProgress}
+						diameter={5}
+						star={true}
+					/>
+
+					<StarCircle
+						index={11}
+						scrollY={smallProgress}
+						diameter={10}
+						star={true}
+					/>
+
+
+					<StarCircle
+						index={10}
+						scrollY={smallProgress}
+						diameter={15}
+						star={true}
+					/>
+
+
+
+
+					<StarCircle
+						index={8}
+						scrollY={smallProgress}
+						diameter={25}
+						star={false}
+					/>
+
+
+
+					<StarCircle
+						index={6}
+						scrollY={smallProgress}
+						diameter={35}
+						star={false}
+					/>
+
+					<StarCircle
+						index={5}
+						scrollY={smallProgress}
+						diameter={40}
+						star={false}
+					/>
+
+
+					<StarCircle
+						index={4}
+						scrollY={smallProgress}
+						diameter={45}
+						star={false}
+					/>
+
+
+
+					<StarCircle
+						index={3}
+						scrollY={smallProgress}
+						diameter={50}
+						star={false}
+					/>
+
+
+
+					<StarCircle
+						index={2}
+						scrollY={smallProgress}
+						diameter={60}
+						star={false}
+					/>
+
+					<StarCircle
+						index={1}
+						scrollY={smallProgress}
+						diameter={65}
+						star={false}
+					/>
+
+					
+				</div>
+
+			</div>
 
 
 
