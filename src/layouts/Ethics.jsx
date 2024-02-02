@@ -44,8 +44,8 @@ function Ethics() {
 
 	return (
 		<>
-			<div 
-				
+			<section 
+				title="About"
 				className="w-screen h-fit relative small:hidden bg-ivory" 
 			>
 
@@ -65,16 +65,16 @@ function Ethics() {
 					}}
 				>
 
-					<div className="flex justify-center">
-						<section className=" font-mada text-[2.5vw] small:text-[1.8vh] w-[40%] small:w-auto flex flex-col items-start small:items-center leading-snug relative">
-							<p>With strong work ethics, I</p>
-							<p>hold integrity in high regard</p>
-							<p>A systematic and organized</p>
-							<p>approach defines my work</p>
-							<p>style, valuing creative</p>
-							<p>solutions that stem from</p>
-							<p>methodical thinking. </p>
-						</section>
+					<div className="flex justify-center list-none">
+						<ul  className=" font-mada text-[2.5vw] small:text-[1.8vh] w-[40%] small:w-auto flex flex-col items-start small:items-center leading-snug relative">
+							<li>With strong work ethics, I</li>
+							<li>hold integrity in high regard</li>
+							<li>A systematic and organized</li>
+							<li>approach defines my work</li>
+							<li>style, valuing creative</li>
+							<li>solutions that stem from</li>
+							<li>methodical thinking. </li>
+						</ul>
 
 						<GooglyEyes
 							xposition={xposition}
@@ -84,7 +84,7 @@ function Ethics() {
 
 				</motion.div>
 
-			</div>
+			</section>
 
 			<motion.div 
 				className="w-screen h-[40vh] " 

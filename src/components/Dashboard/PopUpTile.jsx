@@ -26,9 +26,9 @@ function PopUpTile({index,title,descriptions,item,bg}) {
 			borderRadius:"10rem"
 		},
 		"HOVER":{
-			width:"99%",
+			width:"30%",
 			height:"100%",
-			borderRadius:"1rem"
+			borderRadius:"5rem"
 		},
 	}
 
@@ -52,8 +52,8 @@ function PopUpTile({index,title,descriptions,item,bg}) {
 				style={index===0?{borderTop:"1.5px solid"}:{borderTop:"0px solid"}}
 			>
 				{device!=="SMALL"&&
-				<motion.img 
-					className="absolute w-full h-full left-0 object-cover mx-2 z-0"
+				<motion.div 
+					className={`absolute w-full h-full left-0 object-fill mx-2 z-0 ${bg}`}
 					alt={title}
 					animate={isHover?CircleVariants["HOVER"]:CircleVariants["DEFAULT"]}
 					transition={{
@@ -61,17 +61,16 @@ function PopUpTile({index,title,descriptions,item,bg}) {
 						ease:"easeInOut",
 						type: "spring",
 					}}
-					src={bg}
 				/>}
 
-				<motion.div 
+				<div 
 					className="w-full h-full px-10 small:px-5 pl-[8%] small:pl-5  flex justify-start items-center z-10  gap-10"
-					animate={isHover?TextVariants["HOVER"]:TextVariants["Default"]}
 				>
-					<h2 
+					<motion.h2
+						animate={isHover?TextVariants["HOVER"]:TextVariants["Default"]} 
 						className="text-[1.8vw]  leading-tight font-[300] text-left w-[25%] small:w-[50%] small:text-base">
 						{title}
-					</h2>
+					</motion.h2>
 
 					<div 
 						className="w-[70%] small:text-[1.1vh] text-[0.75vw] ">
@@ -84,7 +83,7 @@ function PopUpTile({index,title,descriptions,item,bg}) {
 						}
 					</div>
 
-				</motion.div>
+				</div>
 			</div>
 			
 			<ProjectPopUp

@@ -84,11 +84,11 @@ function Wabbit() {
 				filter:`blur(${blur}px)`
 			}}
 			
-			className="large:w-[70vh] small:h-[80vh] small:left-0 absolute large:top-64 small:bottom-32 z-20 flex justify-start" 
+			className="large:w-[70vh] small:h-[80vh] small:left-0 absolute large:top-64 small:bottom-32 z-20 flex justify-start " 
 			ref={scope}
 		>
 			<img 
-				className="relative z-10 w-[90%] small:w-full object-contain drop-shadow-lg cursor-pointer"
+				className="relative z-10 w-[90%] small:w-full object-contain drop-shadow-lg cursor-pointer rounded-[10rem]"
 				alt="wabbit"
 				onClick={stopAudio}
 				src="./others/wabbit.webp"

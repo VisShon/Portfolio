@@ -10,7 +10,7 @@ function Introduction() {
 	const { scrollY } = useScroll()
 
 	return (
-		<section title="Introduction"  className="flex small:flex-col justify-center items-start small:items-center font-mada p-32 small:px-12 pt-32 text-charcoal select-none relative gap-40 small:gap-10 h-screen  snap-centerv mb-16 small:-mb-10">
+		<section title="Introduction"  className="flex small:flex-col justify-center items-start small:items-center font-mada p-32 small:px-12 pt-32 text-charcoal select-none relative gap-40 small:gap-10 h-screen  snap-centerv mb-[5rem] small:-mb-10">
 
 			<section className="w-[30%] relative small:w-[60vw] h-[60%] flex flex-col justify-start small:items-center gap-5 small:gap-0">
 				<h1 

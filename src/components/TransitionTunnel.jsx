@@ -25,7 +25,7 @@ function TransitionTunnel() {
 		<div ref={ref} className="w-screen h-[700vh] flex flex-col p-14 relative items-end ">	
 
 			<motion.div 
-				className="w-full bg-tunnelBg bg-cover bg-center bg-no-repeat bg-fill sticky top-10  p-2  overflow-hidden"
+				className="w-full bg-contain sticky top-10  p-2  overflow-hidden  Tunnel"
 				style={{
 					width:bgWidthTransition,
 					height:bgHeightTransition,
@@ -35,7 +35,7 @@ function TransitionTunnel() {
 				}}
 			>
 
-				<div className="relative flex flex-col items-center justify-center w-full h-full">
+				<div className="relative flex flex-col items-center justify-center w-full h-full bg-noise">
 
 					<StarCircle
 						index={12}

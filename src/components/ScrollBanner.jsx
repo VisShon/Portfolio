@@ -20,7 +20,7 @@ function ScrollBanner({bg,bgColor,bottom}) {
 
 
 	return (
-		<motion.div 
+		<motion.h4 
 			className={`w-full h-[5rem] ${bottom?variants[0]:variants[1]} bg-repeat-x`} 
 			style={{
 				backgroundPositionX:progress+"px"
@@ -35,7 +35,7 @@ function ScrollBanner({bg,bgColor,bottom}) {
 				ease:"easeInOut",
 			}}
 		>
-		</motion.div>
+		</motion.h4>
 	)
 }
 

@@ -20,7 +20,7 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 				onMouseLeave={()=>setIsOpen(false)}
 			>
 
-				<h2 className="text-3xl small:text-xl font-[300]  w-[15vw] small:w-[8vh]">{title}</h2>
+				<h4 className="text-3xl small:text-xl font-[300]  w-[15vw] small:w-[8vh]">{title}</h4>
 
 				<div className="flex gap-2 w-[15vw] small:mx-2 small:flex-col">
 					{links.map((link,index)=>(
@@ -56,7 +56,7 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 
 				{isOpen?
 				<motion.div 
-					className="w-[42rem] h-[25rem] absolute bottom-[100%] left-[15%] rounded-md border-[1.5px] border-charcoal p-3 bg-chalk z-20 transition-all ease-in-out"
+					className="w-[42rem] small:hidden h-[25rem] absolute bottom-[100%] left-[15%] rounded-md border-[1.5px] border-charcoal p-3 bg-chalk z-20 transition-all ease-in-out"
 					layoutId
 					initial={{opacity: 0, filter:"blur(4px)"}}
 					animate={{opacity: 1, filter:"blur(0px)"}}

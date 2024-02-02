@@ -36,7 +36,7 @@ function Dashboard() {
 				bgColor={bg.color}
 			/>
 			
-			<div 
+			<section 
 				className="grid grid-cols-9 grid-rows-8 gap-4 w-full p-5 small:p-2 h-[90%] relative small:flex small:flex-col small:overflow-y-scroll"
 			>
 				<DashboardButton
@@ -74,7 +74,7 @@ function Dashboard() {
 					setBg={setBg}
 					data={projects}
 				/>
-			</div>
+			</section>
 
 			
 

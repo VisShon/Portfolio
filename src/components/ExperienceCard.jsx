@@ -25,7 +25,7 @@ function ExperienceCard({index,logo,setCurrent,setAnimate}) {
 	}
 	
 	return (
-		<div  className={`w-full small:h-full h-[145vh] relative  overflow-visible`}
+		<div  className={`w-full small:h-full h-[84.7rem] relative  overflow-visible`}
 		>
 			<section 
 				ref={ref}

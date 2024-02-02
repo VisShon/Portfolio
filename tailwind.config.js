@@ -33,13 +33,11 @@ module.exports = {
       },
       visibility: ["group-hover"],
       backgroundImage: {
-        'project-pattern': "url('/public/others/projectPattern.webp')",
         'workBg': "url('/public/others/workBg.webp')",
         'communityBg': "url('/public/others/communityBg.webp')",
         'mentorshipBg': "url('/public/others/mentorshipBg.webp')",
         'awardsBg': "url('/public/others/awardsBg.webp')",
         'projectBg': "url('/public/others/projectBg.webp')",
-        'tunnelBg': "url('/public/others/tunnelBg.webp')",
         'noise': "url('/public/others/noise.svg')",
       }
     }

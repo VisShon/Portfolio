@@ -53,7 +53,7 @@ function Experiences() {
 
 	return (
 		<>
-			<section  className={`p-12  small:p-4 w-full font-mada bg-ivory text-charcoal select-none relative mb-20 small:mb-0 h-[618vh] small:h-fit` }>
+			<section  className={`p-12  small:p-4 w-full font-mada bg-ivory text-charcoal select-none relative mb-20 small:mb-0 h-[360rem] small:h-fit` }>
 
 				<section className="absolute flex flex-col items-center justify-start w-[50%]  gap-20 z-20  small:hidden">
 					{experience.slice(0,4).map((experience,index)=>
@@ -113,7 +113,7 @@ function Experiences() {
 
 				<div className="flex flex-col items-center gap-10">
 					{experience.slice(0,4).map((experience,index)=>
-						<div className="border-[1.5px] h-[80vh] rounded-md  border-grey p-24 flex justify-end small:justify-start small:top-10 small:p-4 relative" >
+						<div className="border-[1.5px] h-[80vh] rounded-md  border-grey p-24 flex justify-end small:justify-start small:top-10 small:p-4 relative" key={index}>
 
 							<section 
 								className="flex flex-col justify-center items-center w-[40%] h-[20vh] mr-4" 
@@ -135,7 +135,7 @@ function Experiences() {
 							>
 		
 								<a  
-									className="font-[400] text-[2.8vw] leading-tight small:text-[3.8vh] mb-2"
+									className="font-[400] text-[2.8vw] leading-tight small:text-[4vh] mb-2"
 									alt={experience?.title}
 									target="_blank"
 									title={experience?.title}
