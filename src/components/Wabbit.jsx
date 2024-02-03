@@ -24,7 +24,7 @@ function Wabbit({springScroll}) {
 			{repeat:0, ease: "easeInOut", duration:1}
 		)
 		audio.current.src="./music.mp3"
-		// await audio.current.play()			
+		await audio.current.play()			
 		return
 	}
 
@@ -104,19 +104,19 @@ function Wabbit({springScroll}) {
 				src="/others/bubblegum.svg"
 			/>}
 
-			{focus&&
-			<motion.button 
-				className="bg-ivory scale-50  absolute top-[20%] left-[-50%] small:left-[5%] small:top-[-5%]  p-4 z-20 rounded-full hover:opacity-100 opacity-40 transition-all ease-in-out duration-200 small:opacity-100 "
+			<button 
+				
+				className="bg-ivory scale-50  absolute top-32 right-[-50%] small:right-[0] small:top-[-12%]  p-4 z-20 rounded-full hover:opacity-100 opacity-40 transition-all ease-in-out duration-200 small:opacity-100 "
 				title="Mute"
-				whileHover={{opacity:1}}
-				onClick={stopAudio} 
+				onClick={()=>focus?stopAudio():null} 
 			>
-				<img 
+				{focus?<img
 					alt="Mute"
 					loading="lazy"
 					src="./icons/speaker.svg"
-				/>
-			</motion.button>}
+				/>:null}
+			</button>
+
 			<audio ref={audio} id="Audio" src="./music.mp3"/>
 			
 		</motion.section>
