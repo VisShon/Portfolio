@@ -28,15 +28,15 @@ function Footer() {
 
 				<section className="flex justify-between  small:flex-col small:w-full">
 
-					<h2 className="text-7xl mb-20 small:text-6xl small:mb-32">HAVE AN IDEA ?</h2>
+					<p className="text-7xl mb-20 small:text-6xl small:mb-32">HAVE AN IDEA ?</p>
 
 					<article className="w-fit font-[300] self-end">
 						<p>2023 © VisShon, New Delhi. All rights reserved</p>
 						<section className="text-sm small:text-[1.6vh] underline flex gap-2 justify-between">
-							<a href="tel:+91-7017495876">
+							<a href="tel:+91-7017495876" title={"Ph. no: +91-7017495876"}>
 								Ph. no: +91-7017495876
 							</a>
-							<a href={"mailto:vshon447@gmail.com"}>
+							<a href={"mailto:vshon447@gmail.com"} title={"Mail: vshon447@gmail.com"}>
 								Mail: vshon447@gmail.com
 							</a>
 						</section>

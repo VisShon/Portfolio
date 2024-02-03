@@ -101,7 +101,8 @@ function Introduction() {
 						<a 
 							className="relative hover:text-[#CCCFD4] transition-all underline" 
 							target="_blank"
-												rel="noreferrer"
+							title="Funding"
+							rel="noreferrer"
 							href="https://inc42.com/buzz/meet-the-31-web3-startups-that-are-part-of-first-cohort-of-polygonleap-2021/">
 							fundraising
 						</a>
@@ -188,7 +189,8 @@ function Introduction() {
 					<a 
 						className="relative hover:text-[#CCCFD4] transition-all underline" 
 						target="_blank"
-											rel="noreferrer"
+						rel="noreferrer"
+						title="Funding"
 						href="https://inc42.com/buzz/meet-the-31-web3-startups-that-are-part-of-first-cohort-of-polygonleap-2021/">
 						fundraising
 					</a>

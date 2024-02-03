@@ -50,7 +50,7 @@ function Avaibility() {
 
 			<a
 				href={"mailto:vshon447@gmail.com"}
-				title="email me"
+				title="Email Me"
 			>
 				📧 <u> vshon447@gmail.com </u>
 			</a>

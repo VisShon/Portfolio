@@ -49,11 +49,11 @@ function DashboardButton({index,descp,title,data,setBg}) {
 						{descp}
 					</p>
 
-					<h2 
+					<h3
 						className="text-[3vw] self-start small:text-[3vh]"
 					>
 						{title}
-					</h2>
+					</h3>
 				</div>
 			</button>
 
@@ -80,6 +80,7 @@ function DashboardButton({index,descp,title,data,setBg}) {
 									})
 									return setPopup(false)
 								}} 
+								title={"Dashboard"}
 								className="absolute top-10 right-10 small:right-0 small:top-4 z-40">
 								<img 
 									className="small:w-[50%]"

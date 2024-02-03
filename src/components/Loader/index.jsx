@@ -28,10 +28,10 @@ function Loading({progress,quote}) {
 					}
 				</p>
 
-				<h2
+				<p
 					className="w-[70%] capitalize font-luimp font-[400] text-[3vw] small:text-[3vh] text-charcoal tracking-tightest text-left z-20">
 					{quote.current}
-				</h2>
+				</p>
 
 				<Stars/>
 

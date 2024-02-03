@@ -7,7 +7,7 @@ function SkillsTools() {
 
 			<div className="large:flex text-4xl small:px-10 small:text-base justify-between w-full text-right py-20 small:py-0 small:grid small:grid-cols-2 small:gap-4">
 				<ul className="small:w-[70%] large:text-[1.75vw]">
-					<h2 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Frameworks</h2>
+					<h4 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Frameworks</h4>
 					<li>NEXTJs</li>
 					<li>ReactJs</li>
 					<li>ReactNative</li>
@@ -19,7 +19,7 @@ function SkillsTools() {
 				</ul>
 
 				<ul className="small:w-[70%] large:text-[1.75vw]">
-					<h2 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Languages</h2>
+					<h4 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Languages</h4>
 					<li>JavaScript</li>
 					<li>TypeScript</li>
 					<li>GraphQL</li>
@@ -30,7 +30,7 @@ function SkillsTools() {
 				</ul>
 
 				<ul className="small:w-[70%] large:text-[1.75vw]">
-					<h2 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Platforms</h2>
+					<h4 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Platforms</h4>
 					<li>Google Cloud</li>
 					<li>Firebase</li>
 					<li>Moralis</li>
@@ -42,7 +42,7 @@ function SkillsTools() {
 				</ul>
 
 				<ul className="small:w-[70%] large:text-[1.75vw]">
-					<h2 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Databases</h2>
+					<h4 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Databases</h4>
 					<li>PostgreSQL</li>
 					<li>Firestore</li>
 					<li>MongoDB</li>
@@ -53,7 +53,7 @@ function SkillsTools() {
 				</ul>
 			</div>
 
-			<p title="Tech Poem" className="w-[35%] small:-mb-10 small:text-sm self-start small:self-center small:text-center small:w-full">
+		h4<p title="Tech Poem" className="w-[35%] small:-mb-10 small:text-sm self-start small:self-center small:text-center small:w-full">
 				Through lines of code, a brand comes to life,<br/>
 				In the realm of tech, I conquer the strife. <br/>
 				If you seek a creator, passionate and true, <br/>

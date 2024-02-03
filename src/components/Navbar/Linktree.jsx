@@ -8,6 +8,7 @@ function Linktree() {
 		<>
 			<button
 				className="hover:text-charcoal transition-colors w-[3rem] h-[1.5em] text-left" 
+				title={"Linktree"}
 				onClick={()=>setIsOpen(prev=>!prev)}
 				name="Linktree"
 			>

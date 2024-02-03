@@ -18,14 +18,14 @@ function Title() {
 	const titleScroll = useTransform(springScroll,[0,800],[0,-50])
 
 	return (
-		<header className="flex flex-col justify-start items-center small:items-start w-full small:px-5 small:mt-12 small:-ml-4 h-[11.5vw] small:h-[23vh] mb-8 small:-mb-12">
-			<motion.h2 
+		<header className="flex flex-col justify-start items-center small:items-start w-full small:px-4 small:mt-12 small:-ml-4 h-[11.5vw] small:h-[23vh] mb-8 small:-mb-12">
+			<motion.p 
 				className="font-[400] small:font-[300] text-4xl my-2 small:my-0  small:text-4xl small:-mb-4"
 				style={{
 					filter:`blur(${blur}px)`
 				}}>
 				FULL STACK
-			</motion.h2>
+			</motion.p>
 
 			<motion.div 
 				className="w-full flex justify-center small:justify-start items-center small:items-start h-full"

@@ -58,9 +58,9 @@ function Reviews() {
 			/>
 			
 			<section className="text-5xl small:text-2xl w-[30rem] small:w-[24rem] self-start capitalize flex relative items-center justify-center small:px-8">
-				<h3>
+				<h5>
 					Here's what some awesome people have said about working with me.
-				</h3>
+				</h5>
 				<img
 					className="absolute -bottom-5  small:right-10 small:h-[50%]"
 					alt="Reviews"

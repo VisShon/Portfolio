@@ -18,12 +18,12 @@ function Projects() {
 
 			<div className="text-4xl mt-10 w-full self-start capitalize flex relative items-center justify-between 																																				">
 
-				<h3 
+				<p 
 					className="w-[25%] small:w-full"
 				>
 					From pixel to prototype, 
 					each project is a canvas of innovation
-				</h3>
+				</p>
 
 				<section className="w-[30%] text-sm flex flex-col items-end gap-5 small:hidden">
 						<motion.img

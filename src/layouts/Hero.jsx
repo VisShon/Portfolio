@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState,useRef } from "react"
 import { useScroll,useSpring,useTransform,motion } from "framer-motion"
 
 import GradientWave from "../components/GradientWave"
@@ -9,25 +9,30 @@ import Wabbit from "../components/Wabbit"
 function Hero() {
 
 	const [linkSelected, setLinkSelected] = useState(0)
+	const ref = useRef(null)
 
-	const { scrollY } = useScroll()
-	const springScroll = useSpring(scrollY, {
+	const { scrollYProgress } = useScroll({
+		target: ref,
+	})
+	const springScroll = useSpring(scrollYProgress, {
 		stiffness: 100,
 		damping: 20,
 		restDelta: 0.01,
 	})
-	const titleBlur = useTransform(springScroll,[200,500],[0,3])
+	const titleBlur = useTransform(springScroll,[0,1],[0,3])
 
 	const [blur,setBlur] = useState(titleBlur.current)
 	titleBlur.onChange((current, value) => {setBlur(current)})
 
 
 	return (
-		<section title="Introduction" className="relative w-full h-fit flex flex-col justify-start items-center pt-32  snap-center">
+		<section title="Introduction" ref={ref} className="relative w-full h-fit flex flex-col justify-start items-center pt-32  snap-center">
 			
 			<Title/>
 			<GradientWave/>
-			<Wabbit/>
+			<Wabbit
+				springScroll={springScroll}
+			/>
 
 			<motion.div 
 				className="text-grey small:hidden text-[1em] font-mada font-[400] flex justify-between w-full p-10  items-end absolute  large:bottom-[30%]"

@@ -4,7 +4,8 @@ function Reveiw({review,author,proof}) {
 		<a 	
 			href={proof}  
 			target="_blank"
-											rel="noreferrer"
+			title={"Review PDF"}
+			rel="noreferrer"
 			className="small:text-sm text-[0.95vw]"
 		>
 			<p className="hover:opacity-60 transition-all ease-in-out">

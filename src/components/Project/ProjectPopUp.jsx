@@ -22,7 +22,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 
 
 						<section>
-							<h2 className="text-grey text-[2vw] w-[50%] small:w-full leading-tight small:text-[3vh]">{project?.title}</h2>
+							<p className="text-grey text-[2vw] w-[50%] small:w-full leading-tight small:text-[3vh]">{project?.title}</p>
 
 							<div className="w-[50%] small:w-full text-lg small:text-[1rem] small:tracking-tighter capitalize leading-tight font-light mt-5">
 								{project?.date&&<p>{project?.date}</p>}
@@ -37,6 +37,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 									className="opacity-80 hover:opacity-100 transition-all "
 									target="_blank"
 									rel="noreferrer"
+									title={link.name}
 									href={link?.url}>
 									<img 
 										className="w-[2rem] object-contain"
@@ -53,6 +54,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 					<div className="w-[70%] small:w-full h-full border rounded-r-md small:rounded-tr-none small:rounded-b overflow-y-scroll z-0">
 						<motion.button 
 							className="fixed top-10 right-5  z-20  "
+							title={"Home"}
 							whileHover={{opacity:1}}
 							onClick={()=>setIsOpen(false)} 
 						>
@@ -83,6 +85,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 											className="w-full"
 											target="_blank"
 											rel="noreferrer"
+											title={project?.title}
 											href={project?.images[0]}>
 											<img
 												alt={project?.title}
@@ -100,7 +103,8 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 											<a 
 												className="w-[50%] small:w-full"
 												target="_blank"
-											rel="noreferrer"
+												rel="noreferrer"
+												title={project?.title}
 												href={project?.images[1]}>
 												<img
 													alt={project?.title}
@@ -116,6 +120,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 												className="w-[50%] small:w-full"
 												target="_blank"
 												rel="noreferrer"
+												title={project?.title}
 												href={project?.images[2]}>
 												<img
 													alt={project?.title}
@@ -138,6 +143,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 													className="w-full"
 													target="_blank"
 													rel="noreferrer"
+													title={project?.title}
 													href={project?.images[3]}>	
 													<img
 														alt={project?.title}
@@ -162,6 +168,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 														className="w-full"
 														target="_blank"
 														rel="noreferrer"
+														title={project?.title}
 														href={project?.images[4]}>
 														<img
 															alt={project?.title}
@@ -177,6 +184,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 														className="w-full"
 														target="_blank"
 														rel="noreferrer"
+														title={project?.title}
 														href={project?.images[5]}>
 														<img
 															className="w-full object-contain h-[40vh] small:h-full"
@@ -199,6 +207,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 													<a
 														className="w-full"
 														key={id}
+														title={project?.title}
 														href={image}				
 													>
 														<img

@@ -21,7 +21,7 @@ function ProjectTile({index,project,setSelected,children}) {
 				// onMouseLeave={()=>index===0?setSelected(index-1):null}
 			>
 
-				<h4 className="text-3xl small:text-xl font-[300]  w-[15vw] small:w-[8vh]">{project.title}</h4>
+				<h3 className="text-3xl small:text-xl font-[300]  w-[15vw] small:w-[8vh]">{project.title}</h3>
 
 				<div className="flex gap-2 w-[15vw] small:mx-2 small:flex-col">
 					{project.links.map((link,index)=>(
@@ -48,6 +48,7 @@ function ProjectTile({index,project,setSelected,children}) {
 
 				<button 
 					onClick={()=>setIsPopUpOpen(true)}
+					title={"Learn more about "+project.title}
 					className="opacity-80 hover:opacity-100 transition-all small:hidden"
 					>
 					<img 

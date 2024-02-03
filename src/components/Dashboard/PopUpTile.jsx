@@ -66,11 +66,11 @@ function PopUpTile({index,title,descriptions,item,bg}) {
 				<div 
 					className="w-full h-full px-10 small:px-5 pl-[8%] small:pl-5  flex justify-start items-center z-10  gap-10"
 				>
-					<motion.h2
+					<motion.p
 						animate={isHover?TextVariants["HOVER"]:TextVariants["Default"]} 
 						className="text-[1.8vw]  leading-tight font-[300] text-left w-[25%] small:w-[50%] small:text-base">
 						{title}
-					</motion.h2>
+					</motion.p>
 
 					<div 
 						className="w-[70%] small:text-[1.1vh] text-[0.75vw] ">
