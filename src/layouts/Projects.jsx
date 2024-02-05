@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import ProjectTile from "../components/Project/ProjectTile"
 import projects from "../content/data/project.json"
 import { motion, useScroll, useMotionValueEvent } from "framer-motion"
@@ -9,17 +9,24 @@ function Projects() {
 	const [selected,setSelected] = useState(-1)
 
 	const {scrollY} = useScroll()
+	
 	useMotionValueEvent(scrollY, "change", 
 		(latest) => setRotation(prev=>prev+scrollY?.current/8000)
 	)
 
+	useEffect(()=>{
+		const id = setTimeout(()=>setSelected(-1),2000)
+		return () => clearTimeout(id)
+	},[selected])
+
 	return (
-		<section title="Projects" className="w-screen h-fit relative p-48 small:p-2 pt-2 4 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 justify-between bg-chalk  snap-center small:pb-20 small:pt-20">
+		<section className="w-screen h-fit relative p-48 small:p-2 pt-2 4 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 justify-between bg-chalk  snap-center small:pb-20 small:pt-20">
 
 			<div className="text-4xl mt-10 w-full self-start capitalize flex relative items-center justify-between 																																				">
 
 				<p 
-					className="w-[25%] small:w-full"
+					title="Projects"
+					className="w-[25%] small:w-full "
 				>
 					From pixel to prototype, 
 					each project is a canvas of innovation
@@ -53,7 +60,9 @@ function Projects() {
 									className="w-[42rem] popup small:hidden h-[25rem] absolute bottom-[100%] left-[15%] rounded-md border-[1.5px] border-charcoal p-3 bg-chalk z-20"
 									layoutId="popup"
 								>
-									<img
+									<motion.img
+										initial={{opacity:0.5,blur:"3px"}}
+										animate={{opacity:1,blur:"0px"}}
 										className="w-full h-full object-contain"
 										alt={project?.title}
 										src={project?.images[0]}

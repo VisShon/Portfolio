@@ -1,4 +1,4 @@
-import ReactFluidAnimation from '@usertive/react-fluid-animation'
+import ReactFluidAnimation from "@usertive/react-fluid-animation"
 
 function Fluid() {
 
@@ -15,9 +15,9 @@ function Fluid() {
 				className="bg-noise opacity-50 bluewash" 
 				style={{
 					
-					width:'100%',
-					height:'100%',
-					borderRadius:'0.375rem',
+					width:"100%",
+					height:"100%",
+					borderRadius:"0.375rem",
 				}}
 			/>
         </div>

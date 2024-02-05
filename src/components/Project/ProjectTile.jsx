@@ -17,11 +17,9 @@ function ProjectTile({index,project,setSelected,children}) {
 			<motion.li 
 				className={`flex ${index===4?variants[1]:variants[0]} border-charcoal justify-between gap-10 p-5 hover:bg-ivory transition-all px-10 small:px-5 w-full items-center group relative cursor-pointer`}
 				onMouseEnter={()=>setSelected(index)}
-				
-				// onMouseLeave={()=>index===0?setSelected(index-1):null}
 			>
 
-				<h3 className="text-3xl small:text-xl font-[300]  w-[15vw] small:w-[8vh]">{project.title}</h3>
+				<h3 className="text-3xl small:text-base font-[300]  w-[15vw]  small:w-[8vh]">{project.title}</h3>
 
 				<div className="flex gap-2 w-[15vw] small:mx-2 small:flex-col">
 					{project.links.map((link,index)=>(

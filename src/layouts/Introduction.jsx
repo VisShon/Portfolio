@@ -10,7 +10,7 @@ function Introduction() {
 	const { scrollY } = useScroll()
 
 	return (
-		<section title="Introduction"  className="flex small:flex-col justify-center items-start small:items-center small:justify-start font-mada p-32 small:px-12 pt-32 small:pt-8  text-charcoal select-none relative gap-40 small:gap-10 h-screen small:h-[70vh]  snap-centerv mb-[5rem] ">
+		<section title="Introduction"  className="flex small:flex-col justify-center items-start small:items-center small:justify-start font-mada p-32 small:px-12 pt-32 small:pt-8  text-charcoal select-none relative gap-40 small:gap-10 h-screen small:h-[70vh]  snap-centerv mb-[5rem] small:mb-[15rem]">
 
 			<section className="w-[30%] small:gap-10 relative small:w-[90vw] h-[60%] flex flex-col justify-start small:items-end gap-5  small:text-left">
 				<h1 
@@ -38,7 +38,7 @@ function Introduction() {
 					</ul>
 				</section>
 
-				<article className="large:hidden  text-[4.5vw] small:p-2 w-full flex flex-col items-center leading-snug relative  text-left"  title="Bio" ref={ref}>
+				<article className="large:hidden  text-[4.4vw] small:p-2 w-full flex flex-col items-center leading-snug relative  text-left"  title="Bio" ref={ref}>
 
 					<Line
 						scrollY={scrollY} 

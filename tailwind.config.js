@@ -39,6 +39,9 @@ module.exports = {
         'awardsBg': "url('/public/others/awardsBg.webp')",
         'projectBg': "url('/public/others/projectBg.webp')",
         'noise': "url('/public/others/noise.svg')",
+      },
+      cursor: {
+        'pin': 'url("/public/icons/pin.svg"), pointer',
       }
     }
   },

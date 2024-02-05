@@ -13,7 +13,7 @@ function Title() {
 	const titleBlur = useTransform(springScroll,[0,500],[0,7])
 
 	const [blur,setBlur] = useState(titleBlur.current)
-	titleBlur.onChange((current, value) => {setBlur(current)})
+	titleBlur.on("change",(current, value) => {setBlur(current)})
 
 	const titleScroll = useTransform(springScroll,[0,800],[0,-50])
 

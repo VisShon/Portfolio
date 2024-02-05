@@ -21,11 +21,11 @@ function Reviews() {
 	},[width])
 
 	const reviews = [
-		{
-			text:"We found Vishnu to be a self-starter who is motivated, duty bound and hard working.",
-			author:"Ilan Bhatia, Director Metabetter Technologies Private Limited",
-			proof:"./hedgeco.pdf"
-		},
+		// {
+		// 	text:"We found Vishnu to be a self-starter who is motivated, duty bound and hard working.",
+		// 	author:"Ilan Bhatia, Director Metabetter Technologies Private Limited",
+		// 	proof:"./hedgeco.pdf"
+		// },
 		{
 			text:"Aside from his love and dedication, Vishnu had always been a decent and kind man who kept good relationships with everyone",
 			author:"Mohit Khanna",
@@ -36,16 +36,16 @@ function Reviews() {
 			author:"Ilan Bhatia, Metabetter Technologies Private Limited",
 			proof:"./hedgeco.pdf"
 		},
-		{
-			text:"We found Vishnu to be a self-starter who is motivated, duty bound and hard working.",
-			author:"Ilan Bhatia",
-			proof:"./hedgeco.pdf"
-		},
-		{
-			text:"We found Vishnu to be a self-starter who is motivated, duty bound and hard working.",
-			author:"Ilan Bhatia",
-			proof:"./hedgeco.pdf"
-		},
+		// {
+		// 	text:"We found Vishnu to be a self-starter who is motivated, duty bound and hard working.",
+		// 	author:"Ilan Bhatia",
+		// 	proof:"./hedgeco.pdf"
+		// },
+		// {
+		// 	text:"We found Vishnu to be a self-starter who is motivated, duty bound and hard working.",
+		// 	author:"Ilan Bhatia",
+		// 	proof:"./hedgeco.pdf"
+		// },
 	]
 
 	

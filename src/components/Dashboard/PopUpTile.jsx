@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { useState,useEffect } from "react"
 import { useWindowSize } from "../../utils/useWindowSize"
-import ProjectPopUp from '../Project/ProjectPopUp';
+import ProjectPopUp from "../Project/ProjectPopUp"
 
 function PopUpTile({index,title,descriptions,item,bg}) {
 

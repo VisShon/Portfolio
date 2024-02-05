@@ -1,4 +1,4 @@
-import { useAnimate,useScroll,useSpring,useTransform,motion } from "framer-motion"
+import { useAnimate,useTransform,motion } from "framer-motion"
 import { useEffect, useState, useRef } from "react"
 
 
@@ -11,7 +11,7 @@ function Wabbit({springScroll}) {
 	const wabbitBlur = useTransform(springScroll,[0,1],[0,3])
 
 	const [blur,setBlur] = useState(wabbitBlur.current)
-	wabbitBlur.onChange((current, value) => {setBlur(current)})
+	wabbitBlur.on("change",(current, value) => {setBlur(current)})
 
 	const burstGum = async() =>{
 		setFocus(true)
@@ -71,42 +71,46 @@ function Wabbit({springScroll}) {
 	}, [animate])
 
 	return (
-		<motion.section 
-			style={{
-				y:wabbitScroll,
-				filter:`blur(${blur}px)`
-			}}
-			
-			className="large:w-[70vh] small:h-[80vh] small:left-0 absolute large:top-64 small:bottom-32 z-20 flex justify-start" 
-			ref={scope}
-			
-		>
-			
-			<img 
-				className="relative z-10 w-[90%] small:w-full object-contain drop-shadow-lg cursor-pointer rounded-[10rem]"
-				alt="wabbit"
-				loading="lazy"
-				src="./others/wabbit.svg"
-			/>
+		<>
+			<motion.section 
+				style={{
+					y:wabbitScroll,
+					filter:`blur(${blur}px)`
+				}}
+				
+				className="large:w-[70vh] small:h-[80vh] small:left-0 absolute large:top-64 small:bottom-32 z-20 flex justify-start" 
+				ref={scope}
+				
+			>
+				
+				<img 
+					className="relative z-10 w-[90%] small:w-full object-contain drop-shadow-lg cursor-pointer rounded-[10vw]"
+					alt="wabbit"
+					loading="lazy"
+					src="./others/wabbit.svg"
+				/>
 
-			{focus?
-			<img
-				className="gum absolute top-[30%] small:top-[26vh] -right-2 small:-right-10  z-20 w-[30%] cursor-pointer select-none drop-shadow-lg"
-				alt="burst"
-				loading="lazy"
-				src="/others/burstbubblegum.svg"
-			/>:
-			<img
-				className="gum absolute top-[30%] small:top-[26vh] -right-2 small:-right-10  z-20 w-[30%] cursor-pointer select-none drop-shadow-lg"
-				alt="bubblegum"
-				loading="lazy"
-				onClick={burstGum} 
-				src="/others/bubblegum.svg"
-			/>}
+				{focus?
+				<img
+					className="gum absolute top-[30%] small:top-[26vh] -right-2 small:-right-10  z-20 w-[30%] cursor-pointer select-none drop-shadow-lg"
+					alt="burst"
+					loading="lazy"
+					src="/others/burstbubblegum.svg"
+				/>:
+				<img
+					className="gum absolute top-[30%] small:top-[26vh] -right-2 small:-right-10  z-20 w-[30%]  select-none drop-shadow-lg cursor-pin"
+					alt="bubblegum"
+					loading="lazy"
+					onClick={burstGum} 
+					src="/others/bubblegum.svg"
+				/>}
 
+				<audio ref={audio} id="Audio" src="./music.mp3"/>
+				
+			</motion.section>
 			<button 
 				
-				className="bg-ivory scale-50  absolute top-32 right-[-50%] small:right-[0] small:top-[-12%]  p-4 z-20 rounded-full hover:opacity-100 opacity-40 transition-all ease-in-out duration-200 small:opacity-100 "
+				className="bg-ivory scale-50  fixed bottom-[50%] right-4 small:right-2  p-4 z-20 rounded-full hover:opacity-100 small:opacity-50 opacity-40 transition-all ease-in-out duration-200 "
 				title="Mute"
 				onClick={()=>focus?stopAudio():null} 
 			>
@@ -116,10 +120,7 @@ function Wabbit({springScroll}) {
 					src="./icons/speaker.svg"
 				/>:null}
 			</button>
-
-			<audio ref={audio} id="Audio" src="./music.mp3"/>
-			
-		</motion.section>
+		</>
 	)
 }
 

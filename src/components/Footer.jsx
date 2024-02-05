@@ -1,4 +1,4 @@
-import Fluid from './Fluid';
+import Fluid from "./Fluid"
 
 function Footer() {  
 

@@ -53,7 +53,7 @@ function SkillsTools() {
 				</ul>
 			</div>
 
-		h4<p title="Tech Poem" className="w-[35%] small:-mb-10 small:text-sm self-start small:self-center small:text-center small:w-full">
+			<p title="Tech Poem" className="w-[35%] small:-mb-10 small:text-sm self-start small:self-center small:text-center small:w-full">
 				Through lines of code, a brand comes to life,<br/>
 				In the realm of tech, I conquer the strife. <br/>
 				If you seek a creator, passionate and true, <br/>

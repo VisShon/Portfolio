@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 import Navbar from "./components/Navbar"
 
 import "./styles/index.css"
-import { ReactLenis } from '@studio-freight/react-lenis'
+import { ReactLenis } from "@studio-freight/react-lenis"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
@@ -19,7 +19,7 @@ root.render(
 				lerp:0.03,
 				easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
 			}} 
-			root={root}>
+			root={true}>
 			<Home/>
 		</ReactLenis>
 	

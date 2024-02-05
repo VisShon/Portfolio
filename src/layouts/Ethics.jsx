@@ -18,14 +18,14 @@ function Ethics() {
 	})
 
 
-	const nextTransition = useTransform(scrollYProgress,[0.2,1],["-80vh","0vh"])
+	const nextTransition = useTransform(scrollYProgress,[0.2,1],["-55vh","0vh"])
 	const nextTransitionBlur = useTransform(scrollYProgress,[0.2,1],[8,0])
 	const nextTransitionScale = useTransform(scrollYProgress,[0.2,1],[0.8,1])
 	const xposition = useTransform(x,[0,1000],[-8,8])
 	const yposition = useTransform(y,[0,1000],[-8,8])
 
 	const [blur,setBlur] = useState(nextTransitionBlur.current)
-	nextTransitionBlur.onChange((current, value) => {setBlur(current)})
+	nextTransitionBlur.on("change",(current, value) => {setBlur(current)})
 
 	
 	useEffect(() => {
@@ -87,7 +87,7 @@ function Ethics() {
 			</section>
 
 			<motion.div 
-				className="w-screen h-[40vh] small:h-[20vh]" 
+				className="w-screen h-[40vh] small:h-[20vh] relative" 
 				ref={ref}
 				style={{
 					marginBottom:nextTransition

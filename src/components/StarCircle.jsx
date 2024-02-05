@@ -14,7 +14,7 @@ function StarCircle({index, diameter, star,scrollY}) {
 	const [starTranslate,setstarTranslate] = useState(scaleTransition.current*11/20)
 	const [starPos,setstarPos] = useState(scaleTransition.current*2/5)
 
-	scaleTransition.onChange((current, value) => {
+	scaleTransition.on("change",(current, value) => {
 		setOpacity(Math.abs(current/1000))
 		if(current/10<50)
 			setstarSize(current/10)

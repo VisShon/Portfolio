@@ -3,23 +3,27 @@ import { motion } from "framer-motion"
 
 function Linktree() {
 	const [isOpen, setIsOpen] = useState(false)
+	const variants = {
+		0:"pointer-events-none",
+		1:"pointer-events-auto"
+	}
 
 	return (
 		<>
 			<button
-				className="hover:text-charcoal transition-colors w-[3rem] h-[1.5em] text-left" 
+				className="hover:text-charcoal transition-colors w-[3rem] h-[1.5em] text-left " 
 				title={"Linktree"}
 				onClick={()=>setIsOpen(prev=>!prev)}
 				name="Linktree"
 			>
-				Linktree
+				<p className="underline ">Socials</p>
 				<aside
 					onMouseLeave={()=>setIsOpen(false)}
-					className="w-[15rem] small:w-[90vw] small p-2 pb-0 pr-2 relative top-0 pt-5 rounded-md -ml-2"
-					>
+					className={`w-[15rem]  small:w-[90vw] small p-2 pb-0 pr-2 relative top-0 pt-5 rounded-md -ml-2 ${isOpen?variants[1]:variants[0]} `}
+				>
 
 					<motion.div
-						className="grid grid-cols-2 small:grid-cols-4  bg-charcoal bg-opacity-50  p-5  text-left justify-center  text-chalk gap-5 w-full  rounded-md"
+						className="grid grid-cols-2 small:grid-cols-4  bg-charcoal bg-opacity-50  p-5  text-left justify-center  text-chalk gap-5 w-full  rounded-md "
 						animate={{
 							clipPath: isOpen
 							  ? "inset(0% 0% 0% 0% round 10px)"

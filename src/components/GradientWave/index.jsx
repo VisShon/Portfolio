@@ -1,6 +1,6 @@
 import { useAnimate,stagger } from "framer-motion"
 import { useEffect, useState } from "react"
-import { useWindowSize } from '../../utils/useWindowSize';
+import { useWindowSize } from "../../utils/useWindowSize"
 
 function Index() {
 
@@ -53,7 +53,7 @@ function Index() {
 
 	return (
 		<aside className="w-[70%] small:w-full h-[105vh] relative flex flex-col justify-start items-center " ref={scope}>
-			<p className="text-chalk font-mada font-[200] opacity-40 absolute text-md top-2 left-2 z-20">Pinch The Buubble for Music</p>
+			<p className="text-chalk font-mada font-[200] opacity-40 absolute text-md top-2 left-2 z-20">Pinch The Bubble for Music</p>
 			<div className="w-full h-full absolute top-0 z-10 bg-noise"></div>
 	
 			{

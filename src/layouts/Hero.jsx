@@ -22,7 +22,7 @@ function Hero() {
 	const titleBlur = useTransform(springScroll,[0,1],[0,3])
 
 	const [blur,setBlur] = useState(titleBlur.current)
-	titleBlur.onChange((current, value) => {setBlur(current)})
+	titleBlur.on("change",(current, value) => {setBlur(current)})
 
 
 	return (
@@ -49,7 +49,7 @@ function Hero() {
 					<li>with functionality.</li>
 				</ul>
 
-				<section className="w-fit flex flex-col right-0 gap-5 small:hidden" title="Awards" >
+				<section className="w-fit flex flex-col right-0 gap-5 small:hidden underline" title="Awards" >
 					<a
 						className="relative hover:text-[#CCCFD4] transition-all list-none"
 						target="_blank"

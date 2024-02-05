@@ -69,17 +69,17 @@ function Experiences() {
 
 			{
 				device==="LARGE"?
-				<div className="border-[1.5px] h-[80vh] small:hidden rounded-md  border-grey p-24 flex justify-end sticky top-20 small:top-10 small:p-4" >
+				<div className="border-[1.5px] h-[80vh] small:hidden rounded-md  border-grey flex justify-end sticky top-20" >
 
 					<motion.section 
-						className="w-[40%] small:w-[55%] flex flex-col small:h-[100%] justify-between py-20 items-start small:justify-start ease-in-out transition-all"
+						className="w-[40%] flex flex-col justify-evenly py-[10vh] items-start"
 						variants={AnimationVariants} 
-						animate={animation ? 'hide' : 'show'}
+						animate={animation ? "hide" : "show"}
 					>
 
-						<section className="flex flex-col">
+						<section className="flex flex-col ">
 							<a  
-								className="font-[400] text-[3vw] leading-tight small:text-4xl mb-2"
+								className="font-[400] text-[3vw] leading-tight mb-2"
 								alt={experience[index]?.title}
 								target="_blank"
 								title={experience[index]?.title}
@@ -89,13 +89,13 @@ function Experiences() {
 							</a>
 
 							<p  
-								className="rounded-full border-[1.5px] border-grey py-1 px-2 small:px-1 small:py-0 w-fit mb-10 text-lg small:text-[0.65rem] small:tracking-tighter">
+								className="rounded-full border-[1.5px] border-grey py-1 px-2 w-fit mb-10 text-[.75vw]">
 								{experience[index]?.date}
 							</p>
 						</section>
 
 						<div   
-							className="flex flex-col gap-5 text-[1vw] small:text-[2vh] small:absolute small:bottom-[12vh] small:-right-4 small:px-4 small:w-[90vw]">
+							className="flex flex-col gap-5 text-[1vw] pr-20  h-[20rem]">
 							{experience[index]?.descriptions.slice(0,3).map((description,id)=>
 								<p key={id}>
 									{description}
@@ -107,7 +107,7 @@ function Experiences() {
 
 					<motion.img
 						animate={{rotateZ:rotation}}
-						className="absolute bottom-10 right-10 small:right-10"
+						className="absolute bottom-10 right-10 small:right-10 w-[2vw]"
 						loading="lazy"
 						alt="Star"
 						src="./icons/darkStar.svg"
@@ -116,57 +116,62 @@ function Experiences() {
 
 				<div className="flex flex-col items-center gap-10">
 					{experience.slice(0,4).map((experience,index)=>
-						<div className="border-[1.5px] h-[80vh] rounded-md  border-grey p-24 flex justify-end small:justify-start small:top-10 small:p-4 relative" key={index}>
+						<div className="border-[1.5px] h-[80vh] rounded-md  border-grey p-4 flex flex-col justify-start relative" key={index}>
+
+							
 
 							<section 
-								className="flex flex-col justify-center items-center w-[40%] h-[20vh] mr-4" 
+								className="w-[100%] relative flex justify-center ease-in-out transition-all"
+								
 							>
-								<img 
-									className="absolute h-[10%] z-10"
-									loading="lazy"
-									alt={experience.title}
-									src={experience.image}
-								/>
 
-								<aside  title="Experience" className={`realtive w-full z-2 rounded-md h-full ${bgVariants[index]}`}>
-									<div className="w-full h-full z-10 bg-noise "></div>
-								</aside>
+								<section className="flex flex-col justify-center items-center w-[40%] h-[20vh] mr-4" 
+								>
+									<img 
+										className="absolute h-[40%] z-10"
+										loading="lazy"
+										alt={experience.title}
+										src={experience.image}
+									/>
 
+									<aside  title="Experience" className={`realtive w-full z-2 rounded-md h-full ${bgVariants[index]}`}>
+										<div className="w-full h-full z-10 bg-noise "></div>
+									</aside>
+
+								</section>
+		
+								<section className="w-[60%]">
+									<a  
+										className="font-[400] text-[2.8vw] leading-tight small:text-[4vh] mb-2"
+										alt={experience?.title}
+										target="_blank"
+										title={experience?.title}
+										rel="noreferrer"
+										href={experience?.links[0].url}>
+										{experience?.title}	
+									</a>
+			
+									<p  
+										className="rounded-full border-[1.5px] border-grey py-1 px-2 small:px-1 small:py-0 w-fit mb-10 text-lg small:text-[0.65rem] small:tracking-tighter">
+										{experience?.date}
+									</p>
+								</section>
+	
+		
 							</section>
 
-							<section 
-								className="w-[40%] relative small:w-[55%] flex flex-col small:h-[100%] justify-center items-start small:justify-start ease-in-out transition-all"
-							>
-		
-								<a  
-									className="font-[400] text-[2.8vw] leading-tight small:text-[4vh] mb-2"
-									alt={experience?.title}
-									target="_blank"
-									title={experience?.title}
-									rel="noreferrer"
-									href={experience?.links[0].url}>
-									{experience?.title}	
-								</a>
-		
-								<p  
-									className="rounded-full border-[1.5px] border-grey py-1 px-2 small:px-1 small:py-0 w-fit mb-10 text-lg small:text-[0.65rem] small:tracking-tighter">
-									{experience?.date}
-								</p>
-		
-								<div   
-									className="flex flex-col gap-5 text-[1.8vh] small:absolute small:bottom-[12vh] small:-right-4 small:px-4 small:w-[90vw]">
-									{experience?.descriptions.slice(0,3).map((description,id)=>
-										<p key={id}>
-											{description}
-										</p>
-									)}
-								</div>
-		
-							</section>
+							<div   
+								className="flex flex-col gap-5 text-[1.7vh] justify-self-end mt-[4vh] ">
+								{experience?.descriptions.slice(0,3).map((description,id)=>
+									<p key={id}>
+										{description}
+									</p>
+								)}
+							</div>
 		
 							<motion.img
 								animate={{rotateZ:rotation}}
-								className="absolute bottom-10 right-10 small:right-10"
+								className="absolute bottom-8 right-2 h-[5vh]"
 								loading="lazy"
 								alt="Star"
 								src="./icons/darkStar.svg"
