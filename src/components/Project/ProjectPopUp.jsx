@@ -10,7 +10,7 @@ function ProjectPopUp({project,isOpen,setIsOpen}) {
 				isOpen&&
 				<motion.div 
 					className="fixed left-0 top-0 w-screen h-screen bg-chalk p-5 z-50 flex small:flex-col"
-					initial={{ opacity: 0 }}
+					initial={{ opacity: 0.01 }}
 					whileInView={{ opacity: 1 }}
 					transition={{ 
 						duration: 0.5, 

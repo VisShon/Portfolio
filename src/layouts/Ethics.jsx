@@ -46,7 +46,7 @@ function Ethics() {
 		<>
 			<section 
 				title="About"
-				className="w-screen h-fit relative  bg-ivory small:mt-10" 
+				className="w-screen h-fit relative bg-ivory small:mt-10" 
 			>
 
 				<TransitionTunnel/>
@@ -54,7 +54,7 @@ function Ethics() {
 
 				<motion.div 
 					className="w-full h-screen flex flex-col justify-center absolute -bottom-40 snap-center "
-					initial={{opacity:0}}
+					initial={{opacity:0.01}}
 					whileInView={{opacity: 1}}
 					transition={{
 						duration: 1,

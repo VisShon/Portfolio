@@ -8,7 +8,7 @@ function StarCircle({index, diameter, star,scrollY}) {
 	const scaleTransition = useTransform(scrollY,[0.2,0.45,0.6],[10*diameter,20*diameter,120*diameter])
 	const rotation = useTransform(scrollY,[0.2,0.6],[0+index*10,360])	
 
-	const [opacity,setOpacity] = useState(Math.abs(scaleTransition.current/1000))
+	const [opacity,setOpacity] = useState(Math.abs(scaleTransition.current/1000)+0.01)
 	const [starSize,setstarSize] = useState(scaleTransition.current/10)
 	const [size,setSize] = useState(scaleTransition.current)
 	const [starTranslate,setstarTranslate] = useState(scaleTransition.current*11/20)

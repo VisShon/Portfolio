@@ -14,7 +14,7 @@ function Experiences() {
 			filter: "blur(0px)",
 		},
 		hide: {
-			opacity: 0,
+			opacity: 0.01,
 			blur: 1,
 			filter: "blur(4px)",
 		},

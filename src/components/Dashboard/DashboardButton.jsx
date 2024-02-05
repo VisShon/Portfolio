@@ -64,7 +64,7 @@ function DashboardButton({index,descp,title,data,setBg}) {
 				>
 						<motion.div 
 							className="rounded-3xl bg-ivory w-full h-full pt-20 px-0 overflow-y-scroll  overflow-x-hidden"
-							initial={{ opacity: 0 }}
+							initial={{ opacity: 0.01 }}
 							whileInView={{ opacity: 1 }}
 							transition={{ 
 								duration: 0.5, 

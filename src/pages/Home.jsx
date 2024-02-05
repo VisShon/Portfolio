@@ -28,7 +28,7 @@ function Home() {
 
 	const quote = useRef(options[Math.floor(Math.random() * 4)]) 
 
-	const closeLoader = () => animate(".loader",{opacity:[1,0]},{duration:1.5, ease:"easeOut" })
+	const closeLoader = () => animate(".loader",{opacity:[1,0.01]},{duration:1.5, ease:"easeOut" })
 
 	useEffect(() => {
 		const intervalId = setInterval(() => {
