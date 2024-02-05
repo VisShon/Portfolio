@@ -16,23 +16,23 @@ function GooglyEyes({xposition, yposition}) {
 			/>
 
 			<div className="relative flex w-full -ml-2 mt-[3vw] ">
-				<div className="rounded-full w-[1.5em] h-[1.5em] absolute top-[1vh] left-[28%] z-10 bg-ivory flex justify-center items-center">
+				<div className="rounded-full w-[1.5vw] h-[1.5vw] absolute top-[1vh] left-[28%] z-10 bg-ivory flex justify-center items-center">
 					<motion.div 
 						style={{
 							translateX:(xposition),
 							translateY:(yposition),
 						}}
-						className="rounded-full w-[1rem] h-[1rem] bg-charcoal"
+						className="rounded-full w-[1vw] h-[1vw] bg-charcoal"
 					></motion.div>
 				</div>
 
-				<div className=" rounded-full w-[1.5rem] h-[1.5rem] absolute top-0 left-[40%] z-10 bg-ivory flex justify-center items-center">
+				<div className=" rounded-full w-[1.5vw] h-[1.5vw] absolute top-0 left-[40%] z-10 bg-ivory flex justify-center items-center">
 					<motion.div 
 						style={{
 							translateX:(xposition),
 							translateY:(yposition),
 						}}
-						className="rounded-full w-[1rem] h-[1rem] bg-charcoal"
+						className="rounded-full w-[1vw] h-[1vw] bg-charcoal"
 					></motion.div>
 				</div>
 			</div>
