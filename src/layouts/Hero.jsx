@@ -49,7 +49,7 @@ function Hero() {
 					<li>with functionality.</li>
 				</ul>
 
-				<section className="w-fit flex flex-col right-0 gap-5 small:hidden underline" title="Awards" >
+				<section className="w-fit flex flex-col right-0 gap-5 small:hidden" title="Awards" >
 					<a
 						className="relative hover:text-[#CCCFD4] transition-all list-none"
 						target="_blank"

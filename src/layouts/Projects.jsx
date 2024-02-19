@@ -20,7 +20,7 @@ function Projects() {
 	},[selected])
 
 	return (
-		<section className="w-screen h-fit relative p-48 small:p-2 pt-2 4 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 justify-between bg-chalk  snap-center small:pb-20 small:pt-20">
+		<section className="w-screen h-fit relative p-48 px-24 small:p-2 pt-2 pb-10 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 justify-between bg-chalk  snap-center small:pb-20 small:pt-20">
 
 			<div className="text-4xl mt-10 w-full self-start capitalize flex relative items-center justify-between 																																				">
 

@@ -19,18 +19,18 @@ function ProjectTile({index,project,setSelected,children}) {
 				onMouseEnter={()=>setSelected(index)}
 			>
 
-				<h3 className="text-3xl small:text-base font-[300]  w-[15vw]  small:w-[8vh]">{project.title}</h3>
+				<h3 className="text-3xl small:text-base font-[300]  w-[30%]  small:w-[8vh]">{project.title}</h3>
 
-				<div className="flex gap-2 w-[15vw] small:mx-2 small:flex-col">
-					{project.links.map((link,index)=>(
+				<div className="flex gap-2 w-[15%] small:mx-2 small:flex-col">
+					{project.links.slice(0,4).map((link,index)=>(
 						<a 
 							key={index}
-							className="opacity-80 hover:opacity-100 transition-all "
+							className="opacity-80 hover:opacity-100 transition-all w-[2rem]"
 							target="_blank"
 							rel="noreferrer"
 							href={link?.url}>
 							<img 
-								className="w-[2rem] object-contain"
+								className="object-contain"
 								alt={link.name}
 								loading="lazy"
 								src={`./icons/${link.name}Dark.svg`}

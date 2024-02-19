@@ -79,7 +79,7 @@ function Experiences() {
 
 						<section className="flex flex-col ">
 							<a  
-								className="font-[400] text-[3vw] leading-tight mb-2"
+								className="font-[400] text-[3.2vw] leading-tight mb-2"
 								alt={experience[index]?.title}
 								target="_blank"
 								title={experience[index]?.title}
@@ -89,13 +89,13 @@ function Experiences() {
 							</a>
 
 							<p  
-								className="rounded-full border-[1.5px] border-grey py-1 px-2 w-fit mb-10 text-[.75vw]">
+								className="rounded-full border-[1.5px] border-grey py-1 px-2 w-fit mb-10 text-[.95vw]">
 								{experience[index]?.date}
 							</p>
 						</section>
 
 						<div   
-							className="flex flex-col gap-5 text-[1vw] pr-20  h-[20rem]">
+							className="flex flex-col gap-5 text-[1.1vw] pr-20  h-[20rem]">
 							{experience[index]?.descriptions.slice(0,3).map((description,id)=>
 								<p key={id}>
 									{description}
