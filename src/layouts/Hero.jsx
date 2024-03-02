@@ -57,7 +57,7 @@ function Hero() {
 						rel="noreferrer"
 						onMouseEnter={()=>setLinkSelected(1)}
 						onMouseLeave={()=>setLinkSelected(0)}
-						href="https://www.facebook.com/hcdiiitd/photos/3283459738578121/?paipv=0&eav=AfbJyIIwVX-zQRLBd9lIKcHDOF-EMF_S6VPrUes4f2yjkS6F26GRJPozk3PLblQ27Hw&_rdr">
+						href="https://devpost.com/software/reverelabs-dzpu4k">
 
 							{linkSelected===1&&
 							<img
