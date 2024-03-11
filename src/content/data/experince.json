@@ -13,9 +13,9 @@
 			}
 		],
 		"descriptions": [
-			"Spearheaded the development of the highly efficient Booking API microservice and data delivery integration with Google hotel center, serving customers for 200+ hotels, garnering a 25% increase in digital revenue.",
-			"Architected CDN caching for static and Load balancing for traffic optimization using Google cloud load balancing, reducing LCP load times from 5s to <2.5s.",
-			"Critically increased product sales by targeting google insights and optimizing SEO, resulting in 20,000 daily active users."
+			"Led the development of a Booking API micro service, increasing digital revenue by 25% by integrating the service with Google Hotel Center, supporting 200+ hotels.",
+			"Optimised performance of the web app through CDN caching and Google Cloud Load Balancing, halving LCP load times to under 2.5 seconds, improving customer interaction.",
+			"Shipped the booking engine, to 20,000 daily users. Bootstrapped to over 200+ hotels through SEO optimization and by developing the service around Google insights."
 		],
 		"image":"https://images.vishnushon.com/experience/2.png"
 
@@ -34,9 +34,8 @@
 			}
 		],
 		"descriptions": [
-			"Implemented UI Testing for Simulink VR Editor, revamping 7 test modules for the newer JS based virtual world editor, and creating helper classes for interactive test cases.",
-			"Orchestrated the adoption of a class-based testing framework, leading to a 30% improvement in software quality.",
-			"Bashed the SL3D editor module for understanding test needs, identified 5 severe bugs in the new virtual world editor, which were raised for the upcoming release, and helped write new tests for the VR Editor."
+			"Deployed UI tests and helper classes for the Simulink’s VR Editor. Streamlined codebase by 30% through adopting a classbased testing framework.",
+			"Audited 5+ severe bugs in the SL3D editor module. Partnered with the senior development team, solving the issues for the upcoming 2024 release."
 		],
 		"image":"https://images.vishnushon.com/experience/1.png"
 	},
@@ -50,9 +49,8 @@
 			}
 		],
 		"descriptions": [
-			"Implemented a crucial Proof of Concept for a government internal software, collaborating with 2 senior officials and a PhD team of 5, from IIT Bombay.",
-			"Led the integration of the backend with GeoServer, using PostGIS and OSM API, incorporating satellite data with a composable React UI.",
-			"Pioneered authentication using the government SSO servers setting the solid groundwork for future deployment."
+			"Architected a geographic information system tool for the government, partnering with a team of 2 senior officials and 5 PhD researchers from IIT Bombay.",
+			"Directed the integration of NodeJs with GeoServer backend architecture, utilising PostGIS and OSM API. Implemented SAML authentication for government’s server access."
 		],
 		"image":"https://images.vishnushon.com/experience/3.png"
 	},
@@ -70,10 +68,9 @@
 			}
 		],
 		"descriptions": [
-			"Achieved a milestone with successful pre-seed and seed funding of over $1M, participating in Tachyon 22 accelerator program.",
-			"Expanded product visibility and usability through the USM Metaverse integration.",
-			"Proposed an integrative approach for embedding Respct inside the USM Metaverse, managing a multidisciplinary team of developers and designers.",
-			"Orchestrated the conceptualization and implementation of product features, utilizing NextJS and EthersJs to craft an immersive user interface and experience, leading to a 50% surge in user adoption."
+			"Participated in the Tachyon 2022 accelerator programme with the founding team, achieving a milestone in raising $1 million in pre-seed and seed funding for the startup.",
+			"Co-drove the Social NFT ecosystem’s development and design using NextJs and EthersJs, enabling 5000+ user adoptions.",
+			"Led collaboration within a cross-functional team of 3 developers and designersintegrate Respct IDs (SNFT profiles) to USM leaderboard UI."
 		],
 		"image":"https://images.vishnushon.com/experience/4.png"
 	},

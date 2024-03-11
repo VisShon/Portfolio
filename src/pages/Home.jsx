@@ -38,7 +38,7 @@ function Home() {
 			}
 			else {
 				setProgress((prevProgress) => prevProgress + 1)
-				if (progress % 5 === 0 && progress !== 0)
+				if (progress % 10 === 0 && progress !== 0)
 				   setIntervalTime((prevTime) => prevTime / 2)
 			}
 		}, intervalTime)

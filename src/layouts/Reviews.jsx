@@ -21,11 +21,11 @@ function Reviews() {
 	},[width])
 
 	const reviews = [
-		{
-			text: "Vishnu consistently demonstrated exceptional problem-solving skills and a strong work ethic. His contributions were invaluable to the team.",
-			author:"Ilan Bhatia, Director Metabetter Technologies Private Limited",
-			proof:"./hedgeco.pdf"
-		},
+		// {
+		// 	text: "Vishnu consistently demonstrated exceptional problem-solving skills and a strong work ethic. His contributions were invaluable to the team.",
+		// 	author:"Ilan Bhatia, Director Metabetter Technologies Private Limited",
+		// 	proof:"./hedgeco.pdf"
+		// },
 		{
 			text:"Aside from his love and dedication, Vishnu had always been a decent and kind man who kept good relationships with everyone",
 			author:"Mohit Khanna",
@@ -36,16 +36,16 @@ function Reviews() {
 			author:"Ilan Bhatia, Metabetter Technologies Private Limited",
 			proof:"./hedgeco.pdf"
 		},
-		{
-			text:"It was a pleasure to work with Vishnu. He exhibited professionalism, creativity, and a genuine passion for his work.",
-			author:"Ilan Bhatia",
-			proof:"./hedgeco.pdf"
-		},
-		{
-			text:"Vishnu's dedication and attention to detail were evident in his work. He consistently delivered high-quality results and was a valuable asset to our team.",
-			author:"Ilan Bhatia",
-			proof:"./hedgeco.pdf"
-		},
+		// {
+		// 	text:"It was a pleasure to work with Vishnu. He exhibited professionalism, creativity, and a genuine passion for his work.",
+		// 	author:"Ilan Bhatia",
+		// 	proof:"./hedgeco.pdf"
+		// },
+		// {
+		// 	text:"Vishnu's dedication and attention to detail were evident in his work. He consistently delivered high-quality results and was a valuable asset to our team.",
+		// 	author:"Ilan Bhatia",
+		// 	proof:"./hedgeco.pdf"
+		// },
 	]
 
 	
@@ -83,8 +83,10 @@ function Reviews() {
 					)
 				}
 	
+				more on way...
 			</div>
 
+			
 
 			<ScrollBanner 
 				bg={"url(./others/bannerLight.svg)"}

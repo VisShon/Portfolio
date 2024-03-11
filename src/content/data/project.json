@@ -22,8 +22,8 @@
 			}
 		],
 		"descriptions": [
-			"Led the development of an escrow payment platform leveraging NextJS, EthersJS, AWS, and Moralis SDK, bagging a $2000 win in Polygon BuidlIt Hackathon 2022.",
-			"Led web3 development and market study buoyed by a comprehensive 3-month States DAO mentorship, Supervised platform design and protocol integration.",
+			"Co-drove the development of RevereLabs, a multisig, payment manager on Polygon for the freelance ecosystem. Utilising NextJS, EthersJS, AWS Cognito and Moralis SDK for frontend integration.",
+			"Won at the Polygon BuidlIt Hackathon 2022 and Sates DAO startup mentorship, receiving $2000 from Filecoin and Spheron in awards.",
 			"RevereLabs presents an Escrow-Based Payment Management Platform designed to address the challenges faced by clients and freelancers in the gig economy. Focused on building trust through efficient payments, the platform fosters a \"trusted economy\" using web3 technologies. Leveraging an intricate smart contract, NFTEscrow.sol, deployed for every gig, ensuring secure and transparent transactions. The platform's frontend, built with NEXT.js and integrated with blockchain using Ethers.js, facilitates user authentication through Moralis and AWS Cognito and stores user and gig data via IPFS file storage API. Noteworthy is RevereLabs' participation and success in the Polygon BuidlIt Hackathon 2022, where it secured a $2000 win. The platform's evolution is marked by a 3-month mentorship with StatesDAO for getting a better understanding of advancing web3 development and market study."
 		],
 		"images":[
@@ -61,8 +61,8 @@
 			}
 		],
 		"descriptions": [
-			"Led the development of a decentralized journalism platform with NextJs, EthersJs, GraphQl, and Ceramic Network, reduced content censorship risks by leveraging blockchain technology.",
-			"Developed features like faucet via Wagmi, subscription pipeline via Superfluid, and secure identities with Ceramic DID.",
+			"Impemented 0xFethr on Polygon with NextJs, EthersJs, Apollo and GraphQL for frontend integration. ComposeDB for storing user identities over Ceramic Network and NFT.Storage for minting news articles.",
+			"Developed subscription pipeline using Superfluid, digital identities with Ceramic DID and faucet feature using Wagmi, heading a team of 4 developers.",
 			"Secured the runner-up spot at the IGDTUW Devacation Hackathon by leading a team of 5 in developing an innovative project with a credible use of web3.",
 			"Fethr, the Decentralized Journalism Platform, was created for secure and transparent journalism in the face of increasing censorship. The application utilizes blockchain technology to provide journalists with a secure space for sharing stories without fear of censorship. Fethr introduces a user verification system, allowing journalists to register and get verified for publishing articles seamlessly. With features like AI-based content review, faucet system via Wagmi, subscription pipeline via Superfluid, and secure identities with Ceramic DID, Fethr ensures credibility and transparency. The architecture involves WalletConnect SDK for user interaction with the blockchain, Next.js and Ethers.js for the frontend, Ceramic Network ComposeDB for data retrieval, and NFT Storage SDK for blog NFT minting. Fethr's was recognized as the runner-up at the IGDTUW Devacation Hackathon."
 		],
@@ -103,8 +103,8 @@
 			}
 		],
 		"descriptions": [
-			"Developed and designed a social DeFi platform at ETHIndia 2022, leveraging NextJs, EthersJs, and Uniswap API for robust front-end development.",
-			"Amalgamated third-party protocols such as Push protocol, Filecoin, and Covalent API, earning a collective $1700+ accolade.",
+			"Developed AlkyneFi at EthIndia hackathon 2022, leveraging NextJs, EthersJs and Uniswap API for the front end. Integrated Lens Protocol and Push (EPNS) API service for the community features.",
+			"Secured multiple wins at EthIndia hackathon 2022 from third-party protocols such as Push (EPNS), Filecoin, and Covalent API, earning a collective $1700+ accolade.",
 			"AlkyneFi, the Social Trading Platform, merges financial elements with the creator economy under the decentralized umbrella. Leveraging technologies such as Lens protocol, ENS, IPFS, Push, Covalent API, and FileCoin, AlkyneFi introduces a unique model allowing selective membership access to assets traded and recommended by 'Managers' (creators). Hosted on Polygon, the platform ensures live updates and notifications using Push, with Manager asset data and records seamlessly integrated through the Covalent API. AlkyneFi not only secured a distinguished place in the world's largest Ethereum hackathon, ETHIndia 2022, but also earned multiple bounties from prominent entities like Covalent, FileCoin, and Push Protocol, amassing a collective accolade of $1700+."
 		],
 		"images":[
@@ -138,9 +138,9 @@
 			}
 		],
 		"descriptions": [
-			"spearheaded the implementation of a robust platform using a Microservices Architecture, incorporating NextJs for the application and ExpressJs for scheduling servers and integrating technologies like Neo4j, GraphQL, Apollo and Google NLP API.",
-			"Established CI/CD pipeline with Google Cloud Run and Google Build triggers, Implemented Cypress for rigorous UI testing and scalable deployment.",
-			"Collaborated closely with a Mathworks representative, achieving a successful project outcome and showcasing the platform's excellence in optimizing the interview process.",
+			"Spearheaded development of InterviewLink employing a microservices architecture with NextJs, GraphQL, and Apollo Client for frontend integration. ExpressJs and Neo4J for scheduling servers and database.",
+			"Established CI/CD pipeline with Google Cloud Run and Github Actions. Authored UI tests with Cypress, adhering to test driven development.",
+			"Implemented a natural language chatbot for student engagement using python and Google vertex AI.",
 			"The Interview Scheduling Platform enhances the interview process by employing a Microservices Architecture. We Collaborated closely with a Mathworks representative as the sponsor of this project, We proceeded with a test driven approach utilizing jest and cypress for backend servers and frontend application respectively, The technology stack includes Next.js for the presentation layer, Express for scheduling server, Django for resume analysis OCR model, and a telegram chatbot using (PyBot) for conversational interfaces. Neo4j's graph database efficiently handles interconnected interview data. Google Cloud integrations (OAuth, Calendar, Mail, Sheets) empower seamless HR capabilities. Apollo Client ensures efficient GraphQL data management, and Apollo Server bridges the front end and Neo4j. The platform optimizes the interview lifecycle, making it robust, efficient, and user-friendly. We also established a robust CI/CD pipeline with Google Cloud Run, Cloud Build Triggers, and Cypress tests to ensure rigorous testing and scalable deployment."
 		],
 		"images":[
@@ -419,7 +419,9 @@
 			}
 		],
 		"descriptions": [
+			"Created the design system for a quizzing platform, as a part of a 3-day UI design challenge in our college.",
 			"Created the design system for a quizzing platform, as a part of a 3-day UI design challenge in our college."
+
 		],
 		"images":[
 			"https://images.vishnushon.com/projects/quizzler/6.webp",

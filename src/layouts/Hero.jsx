@@ -27,6 +27,10 @@ function Hero() {
 
 	return (
 		<section title="Introduction" ref={ref} className="relative w-full h-fit flex flex-col justify-start items-center pt-32  snap-center">
+
+			<h1 className="hidden">
+				I'm Vishnu Shon, I develop solutions that blend creativity with functionality. Over time, my journey has unfolded with a diverse array of experiences, from working with various startups to leading successful fundraising efforts 🚀🚀🚀. I am committed to fostering developer and designer communities and leading with a vision for a tech-driven future.
+			</h1>
 			
 			<Title/>
 			<GradientWave/>

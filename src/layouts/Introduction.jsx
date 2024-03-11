@@ -13,11 +13,11 @@ function Introduction() {
 		<section title="Introduction"  className="flex small:flex-col justify-center items-start small:items-center small:justify-start font-mada p-32 small:px-12 pt-32 small:pt-8  text-charcoal select-none relative gap-40 small:gap-10 h-screen small:h-[70vh]  snap-centerv mb-[5rem] small:mb-[15rem]">
 
 			<section className="w-[25vw] small:gap-10 relative small:w-[90vw] h-[60%] flex flex-col justify-start small:items-end gap-5  small:text-left">
-				<h1 
+				<h3 
 					title="Vishnu Shon" 
 					className="font-luimp italic font-[400] small:text-[32vw] text-9xl leading-[7rem] small:leading-none text-charcoal text-right small:text-right">
 					Vishnu Shon
-				</h1>
+				</h3>
 				
 				<section className="flex justify-end text-sm small:hidden">
 					<motion.img

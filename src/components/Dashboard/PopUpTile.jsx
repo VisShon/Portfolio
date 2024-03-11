@@ -45,7 +45,7 @@ function PopUpTile({index,title,descriptions,item,bg}) {
 	return (
 		<>
 			<div 
-				className="relative flex border-b-[1.5px] justify-center  border-charcoal  gap-10 w-full items-center cursor-pointer bg-contain h-[12vh]"
+				className="relative flex border-b-[1.5px] justify-center  border-charcoal  gap-10 w-full items-center cursor-pointer bg-contain h-fit py-5"
 				onClick={()=>setIsOpen(true)}
 				onMouseEnter={() => setIsHover(true)}
 				onMouseLeave={() => setIsHover(false)}
@@ -72,16 +72,16 @@ function PopUpTile({index,title,descriptions,item,bg}) {
 						{title}
 					</motion.p>
 
-					<div 
-						className="w-[70%] small:text-[1.1vh] text-[0.75vw] ">
-						<p>{descriptions?.at(0).slice(0,1000)}</p>
+					<ul 
+						className="w-[70%] small:text-[1.1vh] text-[0.8rem] list-disc">
+						<li>{descriptions?.at(0).slice(0,1000)}</li>
 						{
 							device!=="SMALL"&&
 							(descriptions?.at(0).length<400?
-								<p>{descriptions?.at(1)}</p>:
-								<></>)
+								<li>{descriptions?.at(1)}</li>:
+								null)
 						}
-					</div>
+					</ul>
 
 				</div>
 			</div>
