@@ -3,7 +3,7 @@ import {createRoot} from "react-dom/client"
 import App from "./pages/App"
 import Navbar from "./components/Navbar"
 
-import "./styles/index.css"
+import "./styles/main.min.css"
 import { ReactLenis } from "@studio-freight/react-lenis"
 
 
