@@ -57,10 +57,11 @@ function Introduction() {
 						<img
 							className="hover:scale-105 transition-all ease-in-out select-none w-[20%]" 
 							alt="Vishnu Shon"
+							fetchPriority="high"
 							loading="lazy"
 							src="./others/introPhoto.webp"
 						/>
-						<ul className="list-none">
+						<section className="list-none">
 							<Line
 								scrollY={scrollY} 
 								base={10}
@@ -87,7 +88,7 @@ function Introduction() {
 								working with various startups to
 							</Line>
 
-						</ul>
+						</section>
 					</section>
 
 					
@@ -151,6 +152,7 @@ function Introduction() {
 						className="hover:scale-105 transition-all ease-in-out select-none w-[20%]" 
 						loading="lazy"
 						alt="Vishnu Shon"
+						fetchPriority="high"
 						src="./others/introPhoto.webp"
 					/>
 					<ul className="list-none">

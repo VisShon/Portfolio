@@ -1,8 +1,35 @@
 import { motion } from "framer-motion"
+import { useState, useEffect, useRef } from "react"
 import Stars from "./Stars"
 
 
-function Loading({progress,quote}) {
+const options= [
+	"Are you more inclined towards creating intuitive user interfaces or robust backend systems?",
+	"Do you thrive on crafting seamless user experiences or enjoy the challenge of optimizing server performance?",
+	"Are you drawn towards the creative side of development or do you revel in the intricacies of data management?",
+	"Do you find joy in building entire applications from scratch or are you passionate about refining existing systems?",
+	"Are you excited about the frontend magic that brings a website to life or are you more intrigued by the backend's hidden complexities?",
+]
+
+
+
+function Loading() {
+
+	const [progress, setProgress] = useState(0)
+
+	const quote = useRef(options[Math.floor(Math.random() * 4)]) 
+
+
+	useEffect(() => {
+		const intervalId = setInterval(() => {
+			if (progress >= 95){
+				clearInterval(intervalId)
+			}
+			else setProgress((prevProgress) => prevProgress + 1)
+		}, 20)
+ 
+		return () => clearInterval(intervalId)
+	}, [progress])
 
 
 	return (

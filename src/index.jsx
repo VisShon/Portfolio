@@ -1,12 +1,15 @@
-import ReactDOM from "react-dom/client"
+import {createRoot} from "react-dom/client"
 
-import Home from "./pages/Home"
+import App from "./pages/App"
 import Navbar from "./components/Navbar"
 
 import "./styles/index.css"
 import { ReactLenis } from "@studio-freight/react-lenis"
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
+
+const rootElement = document.getElementById("root")
+const root = createRoot(rootElement)
+
 
 root.render(
 	<>
@@ -20,7 +23,7 @@ root.render(
 				easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
 			}} 
 			root={true}>
-			<Home/>
+			<App/>
 		</ReactLenis>
 	
 	</>

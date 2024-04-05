@@ -36,6 +36,7 @@ function Projects() {
 						<motion.img
 							animate={{rotateZ:rotation}}
 							alt="Star"
+							fetchPriority="high"
 							src="./icons/lightStar.svg"
 						/>
 					<p className="text-base text-right">
@@ -57,13 +58,17 @@ function Projects() {
 						>
 							{selected===index?
 								<motion.div 
-									className="w-[42rem] popup small:hidden h-[25rem] absolute bottom-[100%] left-[15%] rounded-md border-[1.5px] border-charcoal p-3 bg-chalk z-20"
+									className="w-[42rem] popup small:hidden h-[25rem] absolute bottom-[100%] left-[15%] rounded-md border-[1.5px] border-charcoal p-3 bg-chalk z-20 overflow-hidden"
 									layoutId="popup"
 								>
 									<motion.img
-										initial={{opacity:0.5,blur:"3px"}}
-										animate={{opacity:1,blur:"0px"}}
+										initial={{y:-50}}
+										animate={{y:0}}
+										transition={{
+											ease:"easeInOut"
+										}}
 										className="w-full h-full object-contain"
+										fetchPriority="high"
 										alt={project?.title}
 										src={project?.images[0]}
 									/>

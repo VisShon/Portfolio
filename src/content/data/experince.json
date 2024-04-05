@@ -17,7 +17,7 @@
 			"Optimised performance of the web app through CDN caching and Google Cloud Load Balancing, halving LCP load times to under 2.5 seconds, improving customer interaction.",
 			"Shipped the booking engine, to 20,000 daily users. Bootstrapped to over 200+ hotels through SEO optimization and by developing the service around Google insights."
 		],
-		"image":"https://images.vishnushon.com/experience/2.png"
+		"image":"https://images.vishnushon.com/experience/2.webp"
 
 	},
 	{
@@ -37,7 +37,7 @@
 			"Deployed UI tests and helper classes for the Simulink’s VR Editor. Streamlined codebase by 30% through adopting a classbased testing framework.",
 			"Audited 5+ severe bugs in the SL3D editor module. Partnered with the senior development team, solving the issues for the upcoming 2024 release."
 		],
-		"image":"https://images.vishnushon.com/experience/1.png"
+		"image":"https://images.vishnushon.com/experience/1.webp"
 	},
 	{
 		"title": "Gov of India | Developer",
@@ -52,7 +52,7 @@
 			"Architected a geographic information system tool for the government, partnering with a team of 2 senior officials and 5 PhD researchers from IIT Bombay.",
 			"Directed the integration of NodeJs with GeoServer backend architecture, utilising PostGIS and OSM API. Implemented SAML authentication for government’s server access."
 		],
-		"image":"https://images.vishnushon.com/experience/3.png"
+		"image":"https://images.vishnushon.com/experience/3.webp"
 	},
 	{
 		"title": "Respct | Founding Team",
@@ -72,7 +72,7 @@
 			"Co-drove the Social NFT ecosystem’s development and design using NextJs and EthersJs, enabling 5000+ user adoptions.",
 			"Led collaboration within a cross-functional team of 3 developers and designersintegrate Respct IDs (SNFT profiles) to USM leaderboard UI."
 		],
-		"image":"https://images.vishnushon.com/experience/4.png"
+		"image":"https://images.vishnushon.com/experience/4.webp"
 	},
 	{
 		"title": "HedgeCo | Frontend Developer",
@@ -87,7 +87,7 @@
 			"Led the development of HedgeCo's PWA using React JS and Chart JS, concurrently driving the UI/UX design team for an intuitive and visually engaging user interface.",
 			"Worked closely with the CTO to refine design ideations, resulting in a product that aligns seamlessly with the company's vision."
 		],
-		"image":"https://images.vishnushon.com/experience/5.png"
+		"image":"https://images.vishnushon.com/experience/5.webp"
 	},
 	{
 		"title": "Settlrs | UI/UX Designer",
@@ -102,7 +102,7 @@
 			"Designed the user flow and UI for the platform from scratch, working closely with the lead developer.",
 			"Worked on revamping the landing page with a better information structure and new illustrations and interactions."
 		],
-		"image":"https://images.vishnushon.com/experience/6.png"
+		"image":"https://images.vishnushon.com/experience/6.webp"
 	},
 	{
 		"title": "Memboro | UI/UX Designer",

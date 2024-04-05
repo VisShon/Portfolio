@@ -86,7 +86,7 @@ function Wabbit({springScroll}) {
 				<img 
 					className="relative z-10 w-[90%] small:w-full object-contain drop-shadow-lg cursor-pointer rounded-[10vw]"
 					alt="wabbit"
-					loading="lazy"
+					fetchPriority="high"
 					src="./others/wabbit.svg"
 				/>
 
@@ -94,13 +94,13 @@ function Wabbit({springScroll}) {
 				<img
 					className="gum absolute top-[30%] small:top-[26vh] -right-2 small:-right-10  z-20 w-[30%] cursor-pointer select-none drop-shadow-lg"
 					alt="burst"
-					loading="lazy"
+					fetchPriority="high"
 					src="/others/burstbubblegum.svg"
 				/>:
 				<img
 					className="gum absolute top-[30%] small:top-[26vh] -right-2 small:-right-10  z-20 w-[30%]  select-none drop-shadow-lg cursor-pin"
 					alt="bubblegum"
-					loading="lazy"
+					fetchPriority="high"
 					onClick={burstGum} 
 					src="/others/bubblegum.svg"
 				/>}
@@ -116,7 +116,7 @@ function Wabbit({springScroll}) {
 			>
 				{focus?<img
 					alt="Mute"
-					loading="lazy"
+					fetchPriority="high"
 					src="./icons/speaker.svg"
 				/>:null}
 			</button>

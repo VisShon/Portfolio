@@ -1,9 +1,12 @@
-import Fluid from "./Fluid"
+
+import { lazy } from "react"
+const  Fluid = lazy(() => import("./Fluid"))
+
 
 function Footer() {  
 
 	return (
-		<footer className="w-screen h-[100vh] bg-ivory fixed top-0 small:relative  z-0  p-10 flex flex-col justify-center items-center font-mada text-ivory  mb-2">
+		<footer className="w-screen h-[100vh] bg-ivory fixed top-0 small:relative  z-0  p-10 flex flex-col justify-center items-center font-mada text-ivory  mb-2 pop-in">
 
 			<aside className="bg-ivory w-[12vw] h-[10vh] absolute top-0 -right-[8.5vw] small:-right-[8vh] z-30 skew-x-[45deg]  small:h-[30vw] small:w-[10vh]"></aside>
 

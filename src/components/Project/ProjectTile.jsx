@@ -32,7 +32,7 @@ function ProjectTile({index,project,setSelected,children}) {
 							<img 
 								className="object-contain"
 								alt={link.name}
-								loading="lazy"
+								fetchPriority="high"
 								src={`./icons/${link.name}Dark.svg`}
 							/>
 						</a>
@@ -51,7 +51,7 @@ function ProjectTile({index,project,setSelected,children}) {
 					>
 					<img 
 						alt={"Learn More"}
-						loading="lazy"
+						fetchPriority="high"
 						src="./icons/arrow.svg"
 					/>
 				</button>

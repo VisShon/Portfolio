@@ -6,9 +6,9 @@ function Navbar() {
 	return (
 
 		<>
-			<nav className="absolute top-0  z-30 small:text-[0.9em] font-mada flex w-full px-10 small:px-5 py-7 justify-between items-start ">
+			<nav className="absolute top-0  z-30 small:text-[1em] font-mada flex w-full px-10 small:px-5 py-7 justify-between items-start ">
 				<section 
-					className="flex small:gap-1 gap-10 justify-between font-normal text-grey relative small:flex-col-reverse "
+					className="flex small:gap-3 gap-10 justify-between font-normal text-grey relative small:flex-col-reverse "
 				>
 					<Linktree/>
 					<a

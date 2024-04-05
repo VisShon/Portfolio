@@ -129,7 +129,7 @@ function Experiences() {
 								>
 									<img 
 										className="absolute h-[40%] z-10"
-										loading="lazy"
+										fetchPriority="high"
 										alt={experience.title}
 										src={experience.image}
 									/>

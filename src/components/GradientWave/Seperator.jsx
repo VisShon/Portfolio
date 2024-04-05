@@ -51,7 +51,7 @@ function Seperator({top,bottom}) {
 		>
 			<img 
 				className="w-full h-full absolute top-0 z-10 object-cover bg-['linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%)']"
-				loading="lazy" 
+				fetchPriority="high"
 				src="./others/seperatorNoise.svg"
 				alt="noise"
 			/>

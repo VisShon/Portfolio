@@ -8,7 +8,7 @@ function Line({children,base,scrollY}) {
 
 	return (
 		<>
-			<motion.li 
+			<motion.p 
 				className="w-full list-none small:hidden"
 				style={{
 					x:textScroll,
@@ -16,16 +16,16 @@ function Line({children,base,scrollY}) {
 				}}
 			>
 				{children}
-			</motion.li>
+			</motion.p>
 
-			<motion.li 
+			<motion.p 
 				className="w-full list-none large:hidden"
 				style={{
 					opacity:textOpacitySmall
 				}}
 			>
 				{children}
-			</motion.li>
+			</motion.p>
 		</>
 	)
 }
