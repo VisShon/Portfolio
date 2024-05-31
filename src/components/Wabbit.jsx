@@ -78,7 +78,7 @@ function Wabbit({springScroll}) {
 					filter:`blur(${blur}px)`
 				}}
 				
-				className="large:w-[70vh] small:h-[80vh] small:left-0 absolute large:top-64 small:bottom-32 z-20 flex justify-start" 
+				className="large:w-[70vh] small:h-[80vh] small:left-0 absolute large:top-64 small:bottom-32 z-20 flex justify-start pop-in" 
 				ref={scope}
 				
 			>

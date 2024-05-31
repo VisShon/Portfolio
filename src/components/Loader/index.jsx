@@ -1,7 +1,6 @@
-import { motion } from "framer-motion"
-import { useState, useEffect, useRef } from "react"
+import { AnimatePresence, motion } from "framer-motion"
+import { useEffect, useRef } from "react"
 import Stars from "./Stars"
-
 
 const options= [
 	"Are you more inclined towards creating intuitive user interfaces or robust backend systems?",
@@ -13,16 +12,13 @@ const options= [
 
 
 
-function Loading() {
-
-	const [progress, setProgress] = useState(0)
+function Loading({progress,setProgress}) {
 
 	const quote = useRef(options[Math.floor(Math.random() * 4)]) 
 
-
 	useEffect(() => {
 		const intervalId = setInterval(() => {
-			if (progress >= 95){
+			if (progress >= 100){
 				clearInterval(intervalId)
 			}
 			else setProgress((prevProgress) => prevProgress + 1)
@@ -33,38 +29,40 @@ function Loading() {
 
 
 	return (
-		<div 
-			className="fixed top-0 w-screen h-screen bg-ivory loader text-charcoal z-50 cursor-wait"			
-		>
-			<motion.div 
-				className="w-full h-full overflow-hidden bg-ivory flex flex-col justify-center items-center z-50"
-				initial={{opacity: 0.01}} 
-				animate={{opacity: 1}}
-				transition={{
-					duration:0.5
-				}}
+			<div 
+				key="loader"
+				className="fixed top-0 w-screen h-screen bg-ivory loader text-charcoal z-50 cursor-wait"
 			>
-				<p
-					className="font-[600] font-luimp text-4xl small:text-left small:text-xl my-2 w-[70%] tracking-widest z-20">
-					{
-						progress<100?
-							progress<10?
-								`00${progress}`:
-								`0${progress}`
-						:`${progress}`
-					}
-				</p>
+				<motion.div 
+					className="w-full h-full overflow-hidden bg-ivory flex flex-col justify-center items-center z-50"
+					initial={{opacity: 0.01}} 
+					animate={{opacity: 1}}
+					transition={{
+						duration:0.5
+					}}
+					
+				>
+					<p
+						className="font-[600] font-luimp text-4xl small:text-left small:text-xl my-2 w-[70%] tracking-widest z-20">
+						{
+							progress<100?
+								progress<10?
+									`00${progress}`:
+									`0${progress}`
+							:`${progress}`
+						}
+					</p>
 
-				<p
-					className="w-[70%] capitalize font-luimp font-[400] text-[3vw] small:text-[3vh] text-charcoal tracking-tightest text-left z-20">
-					{quote.current}
-				</p>
+					<p
+						className="w-[70%] capitalize font-luimp font-[400] text-[3vw] small:text-[3vh] text-charcoal tracking-tightest text-left z-20">
+						{quote.current}
+					</p>
 
-				<Stars/>
+					<Stars/>
 
-			</motion.div>
-			
-		</div>
+				</motion.div>
+				
+			</div>
 	)
 }
 

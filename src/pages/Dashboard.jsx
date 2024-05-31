@@ -20,6 +20,7 @@ function Dashboard() {
 
 	return (
 		<motion.main 
+			key="dashboard"
 			className="w-full h-screen font-mada font-[400] z-40 sticky top-0 over flex flex-col justify-center items-center"
 			animate={{
 				backgroundColor:bg==="#1F1F1F"?"#F1EFF4":"#1F1F1F",

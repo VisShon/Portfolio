@@ -12,6 +12,14 @@
 
 .pop-in { animation: fadeIn 3s; }
 
+.clip-circle{
+  animation: polygon 2s;
+}
+
+@keyframes polygon {
+  100% { clip-path: polygon(0 0, 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%); }
+  0% { clip-path:  polygon(50% 50%, 50% 25%, 50% 50%, 75% 50%, 50% 50%, 50% 75%, 50% 50%, 25% 50%); }
+}
 
 ::-webkit-scrollbar {
   display:none;

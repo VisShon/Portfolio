@@ -9,7 +9,7 @@ import Reviews from "../layouts/Reviews"
 
 function Home() {
 	return (
-		<main className="flex bg-ivory flex-col items-center relative  w-screen h-fit overflow-x-clip overscroll-contain snap-y snap-scroll-points z-20 mb-[100vh] small:mb-0 select-none pop-in">
+		<main className="flex bg-ivory flex-col items-center relative  w-screen h-fit overflow-x-clip overscroll-contain snap-y snap-scroll-points z-20 mb-[100vh] small:mb-0 select-none" key="home">
 			<Hero/>
 			<Introduction/>
 			<Experiences/>
