@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from "framer-motion"
+import { motion } from "framer-motion"
 import { useEffect, useRef } from "react"
 import Stars from "./Stars"
 
@@ -15,6 +15,7 @@ const options= [
 function Loading({progress,setProgress}) {
 
 	const quote = useRef(options[Math.floor(Math.random() * 4)]) 
+
 
 	useEffect(() => {
 		const intervalId = setInterval(() => {
@@ -54,7 +55,7 @@ function Loading({progress,setProgress}) {
 					</p>
 
 					<p
-						className="w-[70%] capitalize font-luimp font-[400] text-[3vw] small:text-[3vh] text-charcoal tracking-tightest text-left z-20">
+						className="w-[70%] capitalize font-luimp font-[300] text-[3vw] small:text-[3vh] text-charcoal tracking-tightest text-left z-20">
 						{quote.current}
 					</p>
 

@@ -158,6 +158,7 @@
 			"https://images.vishnushon.com/projects/interviewlink/12.webp"
 		]
 	},
+
 	{
 		"title": "Event Management Application",
 		"tags" : "Web Development - UI/UX Design",
@@ -204,6 +205,48 @@
 			"https://images.vishnushon.com/projects/vantage/11.webp",
 			"https://images.vishnushon.com/projects/vantage/12.webp",
 			"https://images.vishnushon.com/projects/vantage/13.webp"
+		]
+	},
+
+	{
+		"title": "Receipt Scanner App",
+		"tags" : "Android Development - Backend Development - Machine Learning",
+		"date":"2024",
+		"links": [
+			{
+				"name": "github",
+				"url": "https://github.com/VisShon/ScanFinance"
+			}
+		],
+		"descriptions": [
+			"Developed a personal finance Android app using Kotlin, Jetpack Compose and RoomDB to manage personal finance, scan receipts and predict monthly budgets",
+			"Integrated It with a Flask backend to scan and send receipts as jpg and identify finance data, using Pillow OCR and Hugging Face models.",
+			"Learnt about Kotlin coroutines for asynchronous operations, streamlining data processing and updates."
+		],
+		"images":[
+			"https://images.vishnushon.com/projects/scanFinance/1.webp",
+			"https://images.vishnushon.com/projects/scanFinance/2.webp",
+			"https://images.vishnushon.com/projects/scanFinance/3.webp",
+			"https://images.vishnushon.com/projects/scanFinance/4.webp",
+			"https://images.vishnushon.com/projects/scanFinance/5.webp"
+		]
+	},
+	
+
+	{
+		"title": "Learning Distributed Systems",
+		"tags" : "Distributed Systems - Backend Development",
+		"date":"2024",
+		"links": [
+			{
+				"name": "github",
+				"url": "https://github.com/VisShon/DistributedSystems"
+			}
+		],
+		"descriptions": [
+			"Distributed Messaging Applications: Implemented RabbitMQ for a CLI youtube application (using packet transfer).",
+			"Modified Raft Consensus Algorithm: Developed a Raft system for fault-tolerant key-value storage inspired by CockroachDB.",
+			"Built a MapReduce framework from scratch for distributed K-means clustering on large datasets."
 		]
 	},
 	{

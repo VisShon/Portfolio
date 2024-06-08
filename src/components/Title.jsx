@@ -44,7 +44,7 @@ function Title() {
 					cursor={false}
 					preRenderFirstString={true}
 					speed={150}
-					className="font-luimp italic font-[400] text-[14vw] small:text-[20vw] text-charcoal tracking-[-13px] small:tracking-[-6px] text-center small:text-left small:-ml-2"
+					className="small:pb-0 pb-4 font-luimp italic font-[300] text-[14vw] small:text-[20vw] text-charcoal tracking-[-13px] small:tracking-[-6px] text-center small:text-left small:-ml-2"
 					repeat={Infinity}
 				/>
 			</motion.div>

@@ -24,11 +24,15 @@
 	</head>
 
 
-	<link rel="preload" href="../src/styles/main.min.css" as="style" onload="this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="../src/styles/main.min.css"></noscript>
+	<link rel="preload" href="../main.min.css" as="style" onload="this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="../main.min.css"></noscript>
 
 	<link rel="preload" href="../build.css" as="style" onload="this.rel='stylesheet'">
 	<noscript><link rel="stylesheet" href="../build.css"></noscript>
+
+	<link rel="preload" href="../src/styles/fonts/Luimp.woff2" as="font" type="font/woff2" crossorigin>
+	<noscript><link rel="stylesheet" href="../build.css"></noscript>
+
 	
 	<script>
 	  !function(a){"use strict";var b=function(b,c,d){function j(a){if(e.body)return a();setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);

@@ -36,9 +36,6 @@ body {
   width: 100vw;
   overflow-x:clip;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   background-color: #F4F9FF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -71,11 +68,6 @@ main{
   background-clip: content-box;
 }
 
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 
 .gradient{
   background: rgb(27,27,28);
