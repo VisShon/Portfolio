@@ -39,6 +39,35 @@
 		]
 	},
 	{
+		"title": "Lending and Borrowing Protocol",
+		"date":"2024",
+		"tags":"Blockchain Development - Web Development - DevOps",
+		"links": [
+			{
+			"name": "canva",
+			"url": "https://www.canva.com/design/DAGISdAy_g4/evk6uBUa7inDSQcZpHRcrg/view?utm_content=DAGISdAy_g4&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+			},
+			{
+			"name": "github",
+			"url": "https://github.com/HashiRWA"
+			}
+		],
+		"descriptions": [
+			"Built a complete oracle-less, RWA (Real world assets) based options lending & borrowing protocol for the Mantra Chain.", 
+			"Implemented custom CosmJs hooks for contract integration on the frontend. Created a SDK for rapidly deploying and testing WASM compiled smart contracts on the COSMOS chain ecosystem."
+		],
+		"images":[
+			"https://images.vishnushon.com/projects/hashiRWA/1.webp",
+			"https://images.vishnushon.com/projects/hashiRWA/2.webp",
+			"https://images.vishnushon.com/projects/hashiRWA/3.webp",
+			"https://images.vishnushon.com/projects/hashiRWA/4.webp",
+			"https://images.vishnushon.com/projects/hashiRWA/5.webp",
+			"https://images.vishnushon.com/projects/hashiRWA/6.webp",
+			"https://images.vishnushon.com/projects/hashiRWA/7.webp",
+			"https://images.vishnushon.com/projects/hashiRWA/8.webp"
+		]
+	},
+	{
 		"title": "Decentralized Journalism Platform",
 		"tags":"Blockchain Development - Web Development - Business Development - UI/UX Design",
 		"date":"2023",

@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.d310cf65.css",
-    "main.js": "/static/js/main.fedb015d.js",
+    "main.css": "/static/css/main.3805142c.css",
+    "main.js": "/static/js/main.526163b8.js",
     "static/js/509.2853213b.chunk.js": "/static/js/509.2853213b.chunk.js",
     "static/js/403.02042ed5.chunk.js": "/static/js/403.02042ed5.chunk.js",
     "static/js/27.b0e6e96a.chunk.js": "/static/js/27.b0e6e96a.chunk.js",
     "static/js/103.83282f89.chunk.js": "/static/js/103.83282f89.chunk.js",
     "static/js/838.21579249.chunk.js": "/static/js/838.21579249.chunk.js",
-    "static/js/382.3bc5569b.chunk.js": "/static/js/382.3bc5569b.chunk.js",
+    "static/js/382.1bb43590.chunk.js": "/static/js/382.1bb43590.chunk.js",
     "static/media/noise.svg": "/static/media/noise.60e403c53a6fcafac308.svg",
     "static/media/LuimpItalic.woff2": "/static/media/LuimpItalic.ba4c539b08dcf198065f.woff2",
     "static/media/Luimp.woff2": "/static/media/Luimp.b7c3cfae0a0622aca178.woff2",
     "index.html": "/index.html",
     "static/media/pin.svg": "/static/media/pin.e4980a28939fa0a5d37e.svg",
-    "main.d310cf65.css.map": "/static/css/main.d310cf65.css.map",
-    "main.fedb015d.js.map": "/static/js/main.fedb015d.js.map",
+    "main.3805142c.css.map": "/static/css/main.3805142c.css.map",
+    "main.526163b8.js.map": "/static/js/main.526163b8.js.map",
     "509.2853213b.chunk.js.map": "/static/js/509.2853213b.chunk.js.map",
     "403.02042ed5.chunk.js.map": "/static/js/403.02042ed5.chunk.js.map",
     "27.b0e6e96a.chunk.js.map": "/static/js/27.b0e6e96a.chunk.js.map",
     "103.83282f89.chunk.js.map": "/static/js/103.83282f89.chunk.js.map",
     "838.21579249.chunk.js.map": "/static/js/838.21579249.chunk.js.map",
-    "382.3bc5569b.chunk.js.map": "/static/js/382.3bc5569b.chunk.js.map"
+    "382.1bb43590.chunk.js.map": "/static/js/382.1bb43590.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d310cf65.css",
-    "static/js/main.fedb015d.js"
+    "static/css/main.3805142c.css",
+    "static/js/main.526163b8.js"
   ]
 }
